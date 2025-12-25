@@ -11,14 +11,14 @@ export function Navbar() {
 
   const navLinks = [
     { name: "Welcome", href: "#welcome" },
-    { name: "Our Heart", href: "#our-heart" },
-    { name: "Pathway", href: "#pathway" },
-    { name: "FAQs", href: "#faqs" },
-    { name: "Contact", href: "#contact" },
+    { name: "Our 🧡 Heart", href: "/our-heart" },
+    { name: "Pathways", href: "/pathways" },
+    { name: "FAQs", href: "/faqs" },
+    { name: "Contact", href: "/contact" },
   ]
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <nav className=" top-0 left-0 right-0 z-50 border-b bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}

@@ -6,18 +6,19 @@ import { Hero } from "@/components/hero"
 import Image from "next/image"
 import Link from "next/link"
 import { MissionBanner } from "@/components/mission-banner"
+import { CurveSeparator } from "@/components/curve-separator"
 
 export default function Home() {
   return (
     <div className="min-h-screen">
-      {/* Navigation */}
-      <Navbar />     
+      
 
       {/* Hero Section */}
       <Hero />
 
        {/* Mission Banner */}
-      <MissionBanner />
+      {/* <MissionBanner /> */}
+      
 
       {/* Mission Statement */}
       <section className="py-16 bg-background">
@@ -26,10 +27,13 @@ export default function Home() {
             Our mission is to help individuals heal inner wounds, align their hearts and souls with God, and walk
             confidently in their God-given purpose through His presence, truth, and restoration.
           </p>
-        </div>
+        </div>        
       </section>
 
+      
+
       {/* What We Offer */}
+      <CurveSeparator color="#F6F1EC" flip={false} />
       <section id="our-heart" className="py-20 bg-muted">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -126,8 +130,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
 
       {/* Call to Action */}
+      
       <section className="py-20 bg-gradient-to-br from-primary via-secondary to-accent">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-balance text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
@@ -152,8 +158,14 @@ export default function Home() {
           <Card className="border-2 border-primary/20 bg-gradient-to-br from-background to-muted">
             <CardContent className="p-8 sm:p-12 text-center">
               <div className="mb-6 flex justify-center">
-                <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
-                  <Heart className="h-10 w-10 text-primary" fill="currentColor" />
+                <div className="flex h-60 w-60 items-center justify-center rounded-full bg-primary/10">
+                  <Image
+                    src="/bible.avif"
+                    alt="Bible Icon"
+                    width={240}
+                    height={240}
+                    className="object-contain">
+                  </Image>
                 </div>
               </div>
               <blockquote className="text-xl sm:text-2xl font-medium text-foreground italic leading-relaxed">
@@ -170,7 +182,7 @@ export default function Home() {
       </section>
 
       {/* FAQs Section */}
-      <section id="faqs" className="py-20 bg-muted">
+      {/* <section id="faqs" className="py-20 bg-muted">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">Frequently Asked Questions</h2>
@@ -205,10 +217,10 @@ export default function Home() {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-background">
+      {/* <section id="contact" className="py-20 bg-background">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">Get In Touch</h2>
@@ -239,32 +251,9 @@ export default function Home() {
             </CardContent>
           </Card>
         </div>
-      </section>
+      </section> */}
 
-      {/* Footer */}
-      <footer className="border-t bg-muted py-12">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
-            <div className="flex items-center gap-2">
-              <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <div className="relative h-20 w-20">
-                <Image
-                  src="/aligned-logo.avif"
-                  alt="Aligned Hearts & Souls Logo"
-                  fill
-                  className="object-contain"
-                  priority
-                />
-              </div>
-            {/* <span className="text-xl font-semibold hidden sm:inline-block">Aligned Hearts & Souls</span> */}
-          </Link>
-            </div>
-            <p className="text-sm text-muted-foreground">
-              © 2025 Aligned Hearts & Souls. Rooted in Faith, Walking in Freedom.
-            </p>
-          </div>
-        </div>
-      </footer>
+      
     </div>
   )
 }
