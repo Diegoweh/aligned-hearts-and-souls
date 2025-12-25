@@ -10,7 +10,7 @@ export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const navLinks = [
-    { name: "Welcome", href: "#welcome" },
+    { name: "Welcome", href: "/" },
     { name: "Our 🧡 Heart", href: "/our-heart" },
     { name: "Pathways", href: "/pathways" },
     { name: "FAQs", href: "/faqs" },
