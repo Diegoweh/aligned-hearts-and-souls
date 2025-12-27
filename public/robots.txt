@@ -1,0 +1,14 @@
+# Robots.txt for Aligned Hearts & Souls
+# https://alignedheartssouls.com
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://alignedheartssouls.com/sitemap.xml
+
+# Crawl-delay for all bots
+Crawl-delay: 1

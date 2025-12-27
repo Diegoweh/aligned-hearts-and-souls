@@ -1,12 +1,23 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Heart, Sparkles, Users, ArrowRight } from "lucide-react"
-import { Navbar } from "@/components/navbar"
+import { Sparkles, Users, ArrowRight } from "lucide-react"
 import { Hero } from "@/components/hero"
 import Image from "next/image"
 import Link from "next/link"
 import { MissionBanner } from "@/components/mission-banner"
 import { CurveSeparator } from "@/components/curve-separator"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Home | Faith-Based Heart Healing & Soul Alignment",
+  description: "Begin your journey to emotional and spiritual freedom through Christian heart healing, soul alignment, and prophetic coaching. Experience God's restorative power and walk in your divine purpose.",
+  openGraph: {
+    title: "Aligned Hearts & Souls | Christian Healing Ministry",
+    description: "Transform your life through faith-based heart healing and spiritual restoration.",
+    url: "https://alignedheartssouls.com",
+    type: "website",
+  },
+}
 
 export default function Home() {
   return (
