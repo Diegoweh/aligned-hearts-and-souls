@@ -2,12 +2,30 @@
 
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import Image from "next/image"
 
 export function Hero() {
   return (
-    <section id="welcome" className="relative overflow-hidden h-screen flex items-center justify-center">
-      {/* Video Background */}
+    <section id="welcome" className="relative overflow-hidden h-screen flex items-end lg:items-center justify-center">
+      {/* Static Image Background */}
       <div className="absolute inset-0 z-0">
+        <Image
+          src="/header.webp"
+          alt="Spiritual healing and faith"
+          fill
+          className="object-cover"
+          priority
+          quality={90}
+        />
+        {/* Dark overlay for better text readability */}
+        <div className="absolute inset-0 bg-black/50" />
+      </div>
+
+      {/* Image Carousel Background - Commented for potential reuse */}
+      {/* <ImageCarousel /> */}
+
+      {/* Video Background - Commented for potential reuse */}
+      {/* <div className="absolute inset-0 z-0">
         <video
           autoPlay
           loop
@@ -15,24 +33,24 @@ export function Hero() {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="https://www.pexels.com/es-es/download/video/7520135/" type="video/mp4" />
+          <source src="https://www.pexels.com/es-es/download/video/7520135/" type="video/mp4" /> */}
           {/* Fallback gradient if video doesn't load */}
-        </video>
+        {/* </video> */}
         {/* Dark overlay for better text readability */}
-        <div className="absolute inset-0 bg-black/50" />
-      </div>
+        {/* <div className="absolute inset-0 bg-black/50" />
+      </div> */}
 
       {/* Content */}
-      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 lg:pb-0">
+        <div className="text-center lg:text-left lg:ml-auto lg:max-w-xl">
           <h1 className="text-balance text-4xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
             Healing Your Heart, <span className="text-primary">Aligning Your Soul</span>
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-white/90 sm:text-xl">
+          <p className="mx-auto lg:mx-0 mt-6 max-w-2xl lg:max-w-xl text-pretty text-lg leading-relaxed text-white/90 sm:text-xl">
             A faith-based platform dedicated to emotional and spiritual healing for believers, rooted in Christian
             values and biblical truth. Walk in your God-given purpose.
           </p>
-          <div className="mt-10 flex items-center justify-center gap-4 flex-wrap">
+          <div className="mt-10 flex items-center justify-center lg:justify-start gap-4 flex-wrap">
             <Button
               size="lg"
               className="bg-primary hover:bg-secondary text-primary-foreground text-lg px-8 py-6 shadow-xl"
@@ -40,13 +58,13 @@ export function Hero() {
               Start Your Journey
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button
+            {/* <Button
               size="lg"
               variant="outline"
               className="text-lg px-8 py-6 border-white text-white hover:bg-white/10 bg-white/5 backdrop-blur"
             >
               Learn More
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

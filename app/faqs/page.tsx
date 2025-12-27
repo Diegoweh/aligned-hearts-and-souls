@@ -189,7 +189,7 @@ const page = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="py-20 bg-muted">
+      <section className="py-20 bg-primary text-brand-pink-foreground">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary/10 mb-6">
             <HelpCircle className="h-8 w-8 text-primary" />
@@ -197,12 +197,12 @@ const page = () => {
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl mb-6">
             Frequently Asked Questions
           </h1>
-          <p className="text-lg sm:text-xl text-muted-foreground">
+          <p className="text-lg sm:text-xl text-brand-pink-foreground">
             Find answers to common questions about our Spirit-led healing pathways
           </p>
         </div>
       </section>
-      <CurveSeparator color="#F6F1EC" flip={true} />
+      <CurveSeparator color="#eb5942" flip={true} />
 
       {/* FAQs Section */}
       <section className="py-20 bg-background">
@@ -215,9 +215,9 @@ const page = () => {
                 className="border-2 border-muted rounded-lg px-6 data-[state=open]:border-primary/50 transition-colors"
               >
                 <AccordionTrigger className="text-left hover:no-underline py-6">
-                  <span className="text-lg font-semibold pr-4">{faq.question}</span>
+                  <span className="text-xl font-semibold pr-4">{faq.question}</span>
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground pb-6 leading-relaxed">
+                <AccordionContent className="text-base text-muted-foreground pb-6 leading-relaxed">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

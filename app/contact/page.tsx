@@ -19,18 +19,18 @@ const page = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="py-20 bg-muted">
+      <section className="py-20 bg-primary text-brand-pink-foreground ">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl mb-6">
             Contact Us
           </h1>
-          <p className="text-lg sm:text-xl text-muted-foreground">
+          <p className="text-lg sm:text-xl text-brand-pink-foreground">
             We'd love to hear from you and walk alongside you on your journey to healing
           </p>
         </div>
       </section>
 
-      <CurveSeparator color="#F6F1EC" flip={true} />
+      <CurveSeparator color="#eb5942" flip={true} />
 
       {/* Contact Section */}
       <section className="py-20 bg-background">

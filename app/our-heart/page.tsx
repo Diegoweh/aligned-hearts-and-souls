@@ -10,11 +10,11 @@ const page = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Meet Your Coach Section */}
-      <section className="py-20 bg-muted">
+      <section className="py-20 bg-brand-pink text-brand-pink-foreground">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">Meet Your Coach</h2>
-            <p className="mt-4 text-lg text-muted-foreground">
+            <p className="mt-4 text-lg text-brand-pink-foreground">
               Experience transformation through prophetic soul alignment
             </p>
           </div>
@@ -60,7 +60,7 @@ const page = () => {
           
         </div>        
       </section>
-      <CurveSeparator color="#F6F1EC" flip={true} />
+      <CurveSeparator color="#F07D86" flip={true} />
 
       
 
@@ -151,17 +151,19 @@ const page = () => {
             Take the first step toward wholeness and alignment with your true identity in Christ.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/pathways">
             <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-10 py-6 shadow-xl">
               Book Your Session
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button
+            </Link>
+            {/* <Button
               size="lg"
               variant="outline"
               className="bg-transparent border-2 border-white text-white hover:bg-white/10 text-lg px-10 py-6 shadow-xl"
             >
               Learn More
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>

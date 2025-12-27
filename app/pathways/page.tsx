@@ -7,22 +7,22 @@ import Link from "next/link"
 import { CurveSeparator } from '@/components/curve-separator'
 
 const page = () => {
-  return (
+  return ( 
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="py-20 bg-muted">
+      <section className="py-20 bg-primary text-brand-pink-foreground">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
             Your Journey to Freedom
           </h1>
-          <p className="mt-6 text-lg sm:text-xl leading-relaxed text-muted-foreground">
+          <p className="mt-6 text-lg sm:text-xl leading-relaxed text-brand-pink-foreground">
             At Aligned Heart & Soul, we offer Spirit-led pathways for inner healing, soul alignment, and freedom
             from rejection and soul wounds. Each journey combines prayer, prophetic guidance, and practical steps —
             so you can heal deeply, live boldly, and walk in your God-given purpose.
           </p>
         </div>
       </section>
-      <CurveSeparator color="#F6F1EC" flip={true} />
+      <CurveSeparator color="#eb5942" flip={true} />
 
       {/* Pathways Section */}
       <section className="py-20 bg-background">
@@ -237,9 +237,20 @@ const page = () => {
           <p className="text-lg text-white mb-8">
             We're here to help you discern the best journey for your healing and transformation.
           </p>
-          <Button size="lg" variant="outline" className="text-lg px-8 py-6">
-            Schedule a Free Consultation
-            <ArrowRight className="ml-2 h-5 w-5" />
+          <Button
+            asChild
+            size="lg"
+            variant="outline"
+            className="text-lg px-8 py-6"
+          >
+            <a
+              href="https://wa.me/19547368343?text=Hello%20I%27d%20like%20to%20schedule%20a%20free%20consultation"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Schedule a Free Consultation
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
           </Button>
         </div>
       </section>

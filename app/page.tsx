@@ -21,9 +21,9 @@ export default function Home() {
       
 
       {/* Mission Statement */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-primary text-brand-pink-foreground ">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-xl leading-relaxed text-foreground">
+          <p className="text-xl leading-relaxed text-white">
             Our mission is to help individuals heal inner wounds, align their hearts and souls with God, and walk
             confidently in their God-given purpose through His presence, truth, and restoration.
           </p>
@@ -33,7 +33,7 @@ export default function Home() {
       
 
       {/* What We Offer */}
-      <CurveSeparator color="#F6F1EC" flip={false} />
+      <CurveSeparator color="#eb5942" flip={true} />
       <section id="our-heart" className="py-20 bg-muted">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -47,9 +47,15 @@ export default function Home() {
             {/* Heart Healing */}
             <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
               <CardContent className="p-8">
-                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-primary/10">
-                  <Heart className="h-8 w-8 text-primary" />
-                </div>
+              <div className="mb-6 flex h-32 w-32 sm:h-40 sm:w-40 items-center justify-center mx-auto">
+                <Image
+                  src="/heart3.avif"
+                  alt="Heart"
+                  width={200}
+                  height={200}
+                  className="object-contain w-full h-full"
+                />
+              </div>
                 <h3 className="text-2xl font-bold mb-4 text-balance">Heart Healing</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
                   Guided spiritual processes designed to help people heal from rejection, shame, emotional brokenness,
@@ -75,8 +81,14 @@ export default function Home() {
             {/* Soul Alignment */}
             <Card className="border-2 hover:border-secondary transition-all duration-300 hover:shadow-xl">
               <CardContent className="p-8">
-                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-secondary/10">
-                  <Sparkles className="h-8 w-8 text-secondary" />
+                <div className="mb-6 flex h-32 w-32 sm:h-40 sm:w-40 items-center justify-center mx-auto">
+                <Image
+                  src="/heart3.avif"
+                  alt="Heart"
+                  width={200}
+                  height={200}
+                  className="object-contain w-full h-full"
+                />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-balance">Soul Alignment</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
@@ -103,8 +115,14 @@ export default function Home() {
             {/* Prophetic Coaching */}
             <Card className="border-2 hover:border-accent transition-all duration-300 hover:shadow-xl">
               <CardContent className="p-8">
-                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-accent/10">
-                  <Users className="h-8 w-8 text-accent" />
+                <div className="mb-6 flex h-32 w-32 sm:h-40 sm:w-40 items-center justify-center mx-auto">
+                <Image
+                  src="/heart3.avif"
+                  alt="Heart"
+                  width={200}
+                  height={200}
+                  className="object-contain w-full h-full"
+                />
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-balance">Prophetic Coaching</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
@@ -144,28 +162,30 @@ export default function Home() {
             God's restorative power in your life.
           </p>
           <div className="mt-10">
+            <Link href="/pathways">
             <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-10 py-6 shadow-xl">
               Book Your Session Now
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
+            </Link>
           </div>
-        </div>
+        </div> 
       </section>
 
       {/* Biblical Foundation */}
-      <section id="pathway" className="py-20 bg-background">
+      <section id="pathway" className="py-20 bg-muted">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <Card className="border-2 border-primary/20 bg-gradient-to-br from-background to-muted">
             <CardContent className="p-8 sm:p-12 text-center">
               <div className="mb-6 flex justify-center">
                 <div className="flex h-60 w-60 items-center justify-center rounded-full bg-primary/10">
-                  <Image
-                    src="/bible.avif"
-                    alt="Bible Icon"
-                    width={240}
-                    height={240}
-                    className="object-contain">
-                  </Image>
+                <Image
+                  src="/heart2.avif"
+                  alt="Heart"
+                  width={200}
+                  height={200}
+                  className="object-contain w-full h-full"
+                />
                 </div>
               </div>
               <blockquote className="text-xl sm:text-2xl font-medium text-foreground italic leading-relaxed">
