@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Sparkles, Users, ArrowRight } from "lucide-react"
+import { Sparkles, Users, ArrowRight, ExternalLink } from "lucide-react"
 import { Hero } from "@/components/hero"
 import Image from "next/image"
 import Link from "next/link"
@@ -211,6 +211,48 @@ export default function Home() {
           </Card>
         </div>
       </section>
+
+      <CurveSeparator color="#eb5942" flip={false} />
+      {/* Collaborising Section */}
+      <section className="py-20 bg-primary text-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Logo Side */}
+            <div className="flex items-center justify-center order-2 md:order-1">
+              <div className="relative h-64 w-64 sm:h-80 sm:w-80">
+                <Image
+                  src="/collaborising.webp"
+                  alt="Collaborising Logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+
+            {/* Content Side */}
+            <div className="flex flex-col justify-center order-1 md:order-2">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
+                Aligned Heart & Soul is a program of Collaborising
+              </h2>
+              <p className="text-lg text-white/90 leading-relaxed mb-8">
+                 A nonprofit organization committed to empowering people through spiritual alignment, financial education, and restorative support—anchored in the belief that every person deserves dignity, opportunity, and the ability to rise.
+              </p>
+              <div>
+                <a
+                  href="https://www.collaborising.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-white text-primary hover:bg-white/90 px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:shadow-xl group"
+                >
+                  <span>Visit Collaborising.org</span>
+                  <ExternalLink className="h-5 w-5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <CurveSeparator color="#eb5942" flip={true} />
 
       {/* FAQs Section */}
       {/* <section id="faqs" className="py-20 bg-muted">

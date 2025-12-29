@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Check, Heart, Users, ArrowRight, Sparkles } from "lucide-react"
+import { Check, Heart, Users, ArrowRight, Sparkles, Gift, Flame } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { CurveSeparator } from '@/components/curve-separator'
@@ -28,6 +28,112 @@ const page = () => {
       <section className="py-20 bg-background">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-8">
+            {/* MY GIFT TO YOU */}
+            <Card className="border-2 border-primary/30 hover:border-primary transition-all duration-300 hover:shadow-2xl flex flex-col">
+              <CardContent className="p-8 flex flex-col flex-1">
+                {/* Header */}
+                <div className="text-center mb-8">
+                  <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-accent/10 mb-4">
+                    <Gift className="h-8 w-8 text-primary" />
+                  </div>
+                  <h2 className="text-3xl font-bold mb-2">My Gift to You</h2>
+                </div>
+
+                {/* Description */}
+                <div className="text-muted-foreground leading-relaxed mb-6 space-y-4">
+                  <p>
+                    I offer one <strong>complimentary healing session</strong> as a gift—an opportunity to experience this work without pressure, obligation, or expectation.
+                  </p>
+                  <p>
+                    This single session is offered so you can prayerfully discern whether this work feels aligned for you. While I do offer paid sessions and programs, there is <strong>no requirement or expectation</strong> to continue beyond this gifted session.
+                  </p>
+                  <p>
+                    Healing belongs to God alone. My role is simply to hold sacred space, listen, pray, and gently guide as the Holy Spirit leads. The true purpose of this session is to create space for a deeper encounter with God the Father, Jesus Christ, the Holy Spirit, and the love and restoration He offers.
+                  </p>
+                </div>
+
+                {/* Scripture */}
+                <div className="mb-6 text-center italic bg-primary/5 p-4 rounded-lg">
+                  <p className="text-foreground">
+                    &quot;You make known to me the path of life; you will fill me with joy in your presence, with eternal pleasures at your right hand.&quot;
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-2">Psalm 16:11</p>
+                </div>
+
+                {/* CTA Button */}
+                <div className="mt-auto pt-4">
+                  <Button
+                    asChild
+                    size="lg"
+                    className="w-full w-full bg-primary hover:bg-primary/90 text-lg py-6"
+                  >
+                    <a
+                      href="https://wa.me/19547368343?text=Hello%20I%27d%20like%20to%20request%20my%20gifted%20healing%20session"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Request Your Gifted Session
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* WOMEN'S WEEKLY PRAYER GATHERING */}
+            <Card className="border-2 border-primary/30 hover:border-primary transition-all duration-300 hover:shadow-2xl flex flex-col">
+              <CardContent className="p-8 flex flex-col flex-1">
+                {/* Header */}
+                <div className="text-center mb-8">
+                  <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary/10 mb-4">
+                    <Flame className="h-8 w-8 text-primary" />
+                  </div>
+                  <h2 className="text-3xl font-bold mb-2">Women&apos;s Weekly Prayer Gathering</h2>
+                </div>
+
+                {/* Description */}
+                <div className="text-muted-foreground leading-relaxed mb-6 space-y-4">
+                  <p>
+                    I&apos;d love for you to join me in prayer each week—a morning circle for women who want to deepen their prayer life and connect with God and one another.
+                  </p>
+                  <p>
+                    <strong>Pray with us for at least 3 months.</strong> This helps us build trust, rhythm, and meaningful connection, while knowing it&apos;s perfectly okay if life sometimes keeps you from attending.
+                  </p>
+                  <p>
+                    We&apos;ll have a brief call or Zoom meeting to see if this is a good fit for you and to go over logistics.
+                  </p>
+                  <p>
+                    <strong>This gathering is free.</strong> You don&apos;t need to join any healing sessions—just come as you are and experience God&apos;s presence.
+                  </p>
+                </div>
+
+                {/* Scripture */}
+                <div className="mb-6 text-center italic bg-primary/5 p-4 rounded-lg">
+                  <p className="text-foreground">
+                    &quot;For where two or three gather in my name, there am I with them.&quot;
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-2">Matthew 18:20</p>
+                </div>
+
+                {/* CTA Button */}
+                <div className="mt-auto pt-4">
+                  <Button
+                    asChild
+                    size="lg"
+                    className="w-full bg-primary hover:bg-primary/90 text-lg py-6"
+                  >
+                    <a
+                      href="https://wa.me/19547368343?text=Hello%20I%27d%20like%20to%20join%20the%20Women%27s%20Weekly%20Prayer%20Gathering"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Join Our Prayer Circle
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </a>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
 
             {/* RESTORATION PATH - Individual */}
             <Card className="border-2 border-primary/30 hover:border-primary transition-all duration-300 hover:shadow-2xl flex flex-col">
@@ -224,7 +330,7 @@ const page = () => {
                   </Button>
                 </div>
               </CardContent>
-            </Card>
+            </Card>                       
 
           </div>
         </div>
