@@ -41,12 +41,12 @@ export function Hero() {
       </div> */}
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 lg:pb-0">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 sm:pb-20 lg:pb-0">
         <div className="text-center lg:text-left lg:ml-auto lg:max-w-xl">
-          <h1 className="text-balance text-4xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
+          <h1 className="text-balance text-3xl sm:text-4xl font-bold tracking-tight text-white md:text-6xl lg:text-7xl">
             Healing Your Heart, <span className="text-primary">Aligning Your Soul</span>
           </h1>
-          <p className="mx-auto lg:mx-0 mt-6 max-w-2xl lg:max-w-xl text-pretty text-lg leading-relaxed text-white/90 sm:text-xl">
+          <p className="mx-auto lg:mx-0 mt-4 sm:mt-6 max-w-2xl lg:max-w-xl text-pretty text-base sm:text-lg leading-relaxed text-white/90 md:text-xl">
             A faith-based platform dedicated to emotional and spiritual healing for believers, rooted in Christian
             values and biblical truth. Walk in your God-given purpose.
           </p>
