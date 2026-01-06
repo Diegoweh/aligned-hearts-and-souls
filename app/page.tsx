@@ -69,13 +69,13 @@ export default function Home() {
               </div>
                 <h3 className="text-2xl font-bold mb-4 text-balance">Heart Healing</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  Guided spiritual processes designed to help people heal from rejection, shame, emotional brokenness,
+                  Guided spiritual prayer designed to help people heal from rejection, shame, emotional brokenness,
                   and identity wounds.
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">True healing through God's presence</p>
+                    <p className="text-sm leading-relaxed">Experience true healing through God's presence</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0" />
@@ -103,21 +103,20 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-balance">Soul Alignment</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  Align your thoughts, emotions, and life with God's will and biblical principles for clarity and
-                  spiritual authority.
+                  Align your thoughts, emotions, and life with God's will and biblical truth so you can live with clarity, peace, and spiritual authority.
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Find clarity and peace</p>
+                    <p className="text-sm leading-relaxed">Learn to listen to the Holy Spirit with clarity and discernment</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Walk in spiritual freedom</p>
+                    <p className="text-sm leading-relaxed">Choose agreement with God's truth over fear, lies, or past wounds</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Operate in spiritual authority</p>
+                    <p className="text-sm leading-relaxed">Walk in spiritual freedom and authority, grounded in your identity in Christ</p>
                   </div>
                 </div>
               </CardContent>

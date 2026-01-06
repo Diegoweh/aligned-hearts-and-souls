@@ -5,15 +5,28 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
-import { Send } from "lucide-react"
+import { ArrowRight, Send } from "lucide-react"
 import Image from "next/image"
 import { CurveSeparator } from "@/components/curve-separator"
 
 const page = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    // Function will be implemented later
-    console.log("Form submitted")
+
+    // Get form data
+    const formData = new FormData(e.currentTarget)
+    const name = formData.get('name') as string
+    const email = formData.get('email') as string
+    const message = formData.get('message') as string
+
+    // Create WhatsApp message
+    const whatsappMessage = `*New Contact Form Submission*\n\n*Name:* ${name}\n*Email:* ${email}\n*Message:*\n${message}`
+
+    // Encode message for URL
+    const encodedMessage = encodeURIComponent(whatsappMessage)
+
+    // Open WhatsApp with the message
+    window.open(`https://wa.me/19547368343?text=${encodedMessage}`, '_blank')
   }
 
   return (
@@ -141,10 +154,10 @@ const page = () => {
                 <CardContent className="p-6 text-center">
                   <h4 className="font-semibold text-lg mb-2">Email</h4>
                   <a
-                    href="mailto:info@alignedheartsoul.com"
+                    href="mailto:lea@alignedheartsoul.com"
                     className="text-primary hover:underline"
                   >
-                    info@alignedheartsoul.com
+                    lea@alignedheartsoul.com
                   </a>
                 </CardContent>
               </Card>
@@ -154,7 +167,24 @@ const page = () => {
                   <p className="text-muted-foreground">
                     Book a free consultation to discuss your healing journey
                   </p>
+
+                  <Button
+                  asChild
+                  size="lg"
+                  variant="outline"
+                  className="text-lg px-8 py-6 mt-4"
+                >
+                  <a
+                    href="https://wa.me/19547368343?text=Hello%20I%27d%20like%20to%20schedule%20a%20free%20consultation"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Schedule a Free Consultation
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </a>
+                </Button>
                 </CardContent>
+                
               </Card>
             </div>
           </div>

@@ -9,6 +9,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import { CurveSeparator } from "@/components/curve-separator"
+import Link from "next/link"
 
 const page = () => {
   const faqs = [
@@ -198,7 +199,7 @@ const page = () => {
             Frequently Asked Questions
           </h1>
           <p className="text-lg sm:text-xl text-brand-pink-foreground">
-            Find answers to common questions about our Spirit-led healing pathways
+            We'd love to connect with you and help you find the right path for your healing journey.
           </p>
         </div>
       </section>
@@ -234,18 +235,28 @@ const page = () => {
             We'd love to connect with you and help you find the right path for your healing journey.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-white text-primary hover:bg-white/90 text-lg px-10 py-6 shadow-xl">
+            <Button
+            asChild
+            size="lg"
+            className="bg-white text-primary hover:bg-white/90 text-lg px-10 py-6 shadow-xl"
+          >
+            <Link href="/contact">
               Contact Us
               <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="bg-transparent border-2 border-white text-white hover:bg-white/10 text-lg px-10 py-6 shadow-xl"
-            >
+            </Link>
+          </Button>
+
+          <Button
+            asChild
+            size="lg"
+            variant="outline"
+            className="bg-transparent border-2 border-white text-white hover:bg-white/10 text-lg px-10 py-6 shadow-xl"
+          >
+            <Link href="/pathways">
               View Our Pathways
               <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            </Link>
+          </Button>
           </div>
         </div>
       </section>
