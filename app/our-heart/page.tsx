@@ -36,21 +36,20 @@ const page = () => {
                 {/* Content Section */}
                 <div className="p-8 sm:p-12 flex flex-col justify-center bg-gradient-to-br from-background to-muted/50">
                   <h3 className="text-2xl sm:text-3xl font-bold mb-4">Lea Murray</h3>
-                  <p className="text-lg text-primary font-medium mb-6">Prophetic Soul Alignment Coach</p>
+                  <p className="text-lg text-primary font-medium mb-6">Waykeeper & Prophetic Soul Alignment Coach</p>
 
                   <div className="space-y-4 text-muted-foreground leading-relaxed">
                     <p>
-                      Lea Murray understands the weight of unseen battles. For years, she wrestled with rejection,
-                      fear, and questions about her identity and purpose.
+                      Lea Murray understands the weight of unseen battles. For years, she wrestled with rejection, fear, and questions about her identity and purpose.
                     </p>
                     <p>
-                      Everything changed when she encountered the transformative power of deliverance and inner healing.
-                      What once felt like endless striving became clarity, freedom, and an unshakable awareness of her
-                      true identity in Christ.
+                      Everything changed when she encountered the transformative power of deliverance and inner healing. What once felt like endless striving became clarity, freedom, and an unshakable awareness of her true identity in Christ.
+                    </p>
+                    <p className="font-medium">
+                      Now, Lea carries that same message of hope and breakthrough to others, guiding them toward spiritual freedom and alignment with God's purpose.
                     </p>
                     <p className="font-medium text-foreground">
-                      Now, Lea carries that same message of hope and breakthrough to others, guiding them toward
-                      spiritual freedom and alignment with God's purpose.
+                      As a Waykeeper, Lea walks alongside individuals, helping them recognize their God-given greatness and live fully in alignment with God's purpose. Through prophetic insight, soul alignment, and prophetic guidance, she accompanies people as the Holy Spirit illuminates clarity, fulfillment, and transformative growth.
                     </p>
                   </div>
                 </div>
@@ -94,12 +93,10 @@ const page = () => {
                     <h3 className="text-2xl sm:text-3xl font-bold">Intention</h3>
                   </div>
                   <p className="text-lg leading-relaxed text-muted-foreground">
-                    To see Holy Spirit-filled believers healed from rejection, restored to wholeness, and aligned
-                    with their true identity in Christ.
+                    To see Holy Spirit-filled believers healed from rejection, restored to wholeness, and aligned with their true identity in Christ.
                   </p>
                   <p className="mt-6 text-foreground font-medium leading-relaxed">
-                    At Aligned Heart and Soul, we believe that when hearts are healed and souls come into alignment
-                    with God's truth, lives are transformed.
+                    At Aligned Heart & Soul, we believe that when hearts are healed and souls come into alignment with God's truth, lives are transformed.
                   </p>
                 </div>
               </div>

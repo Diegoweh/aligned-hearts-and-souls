@@ -49,7 +49,7 @@ export function Hero() {
           </h1>
           <p className="mx-auto lg:mx-0 mt-4 sm:mt-6 max-w-2xl lg:max-w-xl text-pretty text-base sm:text-lg leading-relaxed text-white/90 md:text-xl">
             A faith-based platform dedicated to emotional and spiritual healing for believers, rooted in Christian
-            values and biblical truth. Walk in your God-given purpose with an aligned heart and soul 🧡
+            values and biblical truth. Walk in your God-given purpose with an Aligned Heart & Soul 🧡
           </p>
           <div className="mt-10 flex items-center justify-center lg:justify-start gap-4 flex-wrap">
             <Button
