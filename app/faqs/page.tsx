@@ -14,6 +14,34 @@ import Link from "next/link"
 const page = () => {
   const faqs = [
     {
+      question: "Are you a therapist or an ordained minister?",
+      answer: (
+        <>
+          <p className="mb-4">
+          Please note that I am a layperson sharing my personal experience with inner healing and deliverance; I am not a licensed therapist, mental health practitioner, or ordained minister. 
+          </p>
+          <p className="mb-4">
+          This coaching is not a substitute for professional medical or pastoral care, and I encourage you to seek a qualified specialist if you require clinical or ministerial services. Your spiritual outcomes and personal growth are ultimately dependent on your individual relationship with God and your own actions, for which I am not responsible.
+          </p>
+          <p className="mb-4">
+          If you are experiencing a crisis or feel like harming yourself, please immediately contact 911, the  Suicide & Crisis Lifeline, or your local emergency services. By participating in these services, you acknowledge that you are assuming full responsibility for your own well-being and any decisions made during our time together.
+          </p>
+          {/* <p className="mb-4">
+            At the same time, the heart of this ministry reflects Jesus, who said:
+          </p>
+          <blockquote className="border-l-4 border-primary pl-4 italic mb-4 text-muted-foreground">
+            "It is not the healthy who need a doctor, but the sick. I have not come to call the righteous, but
+            sinners."
+            <span className="block mt-2 text-sm">— Mark 2:17</span>
+          </blockquote>
+          <p>
+            So whether you're familiar with these concepts or simply know you need healing, you are welcome—if
+            you're open, humble, and ready to partner with God in the process.
+          </p> */}
+        </>
+      ),
+    },
+    {
       question: "Who is this program for?",
       answer: (
         <>

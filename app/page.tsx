@@ -69,21 +69,22 @@ export default function Home() {
               </div>
                 <h3 className="text-2xl font-bold mb-4 text-balance">Heart Healing</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  Guided spiritual prayer designed to help people heal from rejection, shame, emotional brokenness,
-                  and identity wounds.
+                Guided spiritual prayer designed to help people heal from rejection, shame, emotional brokenness, and identity wounds
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Experience true healing through God's presence</p>
+                    <p className="text-sm leading-relaxed">Silence the Noise to Encounter God: Quiet your mind through Spirit-led prayer to experience deep peace and intimacy with the Father
+                    </p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Freedom from past wounds</p>
+                    <p className="text-sm leading-relaxed">Release Past Wounds through Forgiveness: Find freedom from trauma and old hurts by extending grace to yourself and others
+                    </p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Restoration of your identity in Christ</p>
+                    <p className="text-sm leading-relaxed">Reclaim Your True Identity in Christ: Trade the weight of shame and rejection for the uplifting truth of who God says you are</p>
                   </div>
                 </div>
               </CardContent>
@@ -103,20 +104,20 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-balance">Soul Alignment</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  Align your thoughts, emotions, and life with God's will and biblical truth so you can live with clarity, peace, and spiritual authority.
+                Conform your life to the perfect measure of God’s pre-ordained will. Like a ruler, His Word is the standard we seek and embrace to ensure our path stays true
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Learn to listen to the Holy Spirit with clarity and discernment</p>
+                    <p className="text-sm leading-relaxed">Align to the Standard: Seek God's heart and adjust your life to His unwavering measure of truth</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Choose agreement with God's truth over fear, lies, or past wounds</p>
+                    <p className="text-sm leading-relaxed">Resist the Enemy: Reject the enemy's influence and draw near to God to experience true spiritual freedom</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Walk in spiritual freedom and authority, grounded in your identity in Christ</p>
+                    <p className="text-sm leading-relaxed">Trust His Design: Trade the stress of your own timing for the peace and authority of God's perfect plan</p>
                   </div>
                 </div>
               </CardContent>
@@ -136,21 +137,20 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-balance">Prophetic Coaching</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  One-on-one spiritual mentorship led by prayer and discernment to help you discover purpose and grow
-                  spiritually.
+                Align your daily decisions with divine purpose through one-on-one mentorship that bridges spiritual discernment with strategic life coaching
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Discover your God-given purpose</p>
+                    <p className="text-sm leading-relaxed">Strategic Decision-Making: Gain clarity on career, family, and ministry choices through focused prophetic insight</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Experience inner freedom</p>
+                    <p className="text-sm leading-relaxed">Compassionate Accountability: Benefit from a safe, non-judgmental relationship that keeps you grounded and focused on your spiritual growth</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Personalized spiritual guidance</p>
+                    <p className="text-sm leading-relaxed">Internal Alignment: Harmonize your soul, spirit, and everyday actions to live with authentic authority</p>
                   </div>
                 </div>
               </CardContent>
