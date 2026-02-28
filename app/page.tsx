@@ -231,7 +231,7 @@ export default function Home() {
             {/* Content Side */}
             <div className="flex flex-col justify-center order-1 md:order-2">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-                Aligned Heart & Soul is a program of Collaborising
+                Aligned Heart & Soul is a program of Collaborising 501(c)(3)
               </h2>
               <p className="text-lg text-white/90 leading-relaxed mb-8">
                  A nonprofit organization committed to empowering people through spiritual alignment, financial education, and restorative support—anchored in the belief that every person deserves dignity, opportunity, and the ability to rise.
