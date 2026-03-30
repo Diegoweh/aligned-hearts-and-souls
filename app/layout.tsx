@@ -12,8 +12,8 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   metadataBase: new URL('https://alignedheartssouls.com'),
   title: {
-    default: "Aligned Hearts & Souls | Christian Emotional & Spiritual Healing",
-    template: "%s | Aligned Hearts & Souls"
+    default: "Aligned Heart & Soul | Christian Emotional & Spiritual Healing",
+    template: "%s | Aligned Heart & Soul"
   },
   description:
     "Transform your life through faith-based heart healing, soul alignment, and prophetic coaching. A Christian platform for emotional healing and spiritual restoration rooted in biblical truth and God's presence.",
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
     "spiritual mentorship",
     "God's healing presence"
   ],
-  authors: [{ name: "Aligned Hearts & Souls Ministry" }],
-  creator: "Aligned Hearts & Souls",
-  publisher: "Aligned Hearts & Souls",
+  authors: [{ name: "Aligned Heart & Soul Ministry" }],
+  creator: "Aligned Heart & Soul",
+  publisher: "Aligned Heart & Soul",
   formatDetection: {
     email: false,
     address: false,
@@ -46,21 +46,21 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://alignedheartssouls.com',
-    siteName: 'Aligned Hearts & Souls',
-    title: 'Aligned Hearts & Souls | Christian Emotional & Spiritual Healing',
+    siteName: 'Aligned Heart & Soul',
+    title: 'Aligned Heart & Soul | Christian Emotional & Spiritual Healing',
     description: 'Transform your life through faith-based heart healing, soul alignment, and prophetic coaching. Experience God\'s restorative power.',
     images: [
       {
         url: '/header.webp',
         width: 1200,
         height: 630,
-        alt: 'Aligned Hearts & Souls - Christian Healing Ministry',
+        alt: 'Aligned Heart & Soul - Christian Healing Ministry',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Aligned Hearts & Souls | Christian Healing',
+    title: 'Aligned Heart & Soul | Christian Healing',
     description: 'Faith-based emotional and spiritual healing rooted in biblical truth.',
     images: ['/header.webp'],
   },
@@ -108,7 +108,7 @@ export default function RootLayout({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Aligned Hearts & Souls',
+    name: 'Aligned Heart & Soul',
     description: 'Christian ministry providing faith-based heart healing, soul alignment, and prophetic coaching for emotional and spiritual restoration.',
     url: 'https://alignedheartssouls.com',
     logo: 'https://alignedheartssouls.com/aligned-logo.avif',
