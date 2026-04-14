@@ -7,6 +7,7 @@ import Link from "next/link"
 import { MissionBanner } from "@/components/mission-banner"
 import { CurveSeparator } from "@/components/curve-separator"
 import type { Metadata } from "next"
+import { Testimonials } from "@/components/testimonials"
 
 export const metadata: Metadata = {
   title: "Home | Faith-Based Heart Healing & Soul Alignment",
@@ -208,8 +209,10 @@ export default function Home() {
               </p>
             </CardContent>
           </Card>
-        </div>
+        </div>        
       </section>
+
+      <Testimonials />
 
       <CurveSeparator color="#eb5942" flip={false} />
       {/* Collaborising Section */}
