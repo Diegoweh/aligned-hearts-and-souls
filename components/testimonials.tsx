@@ -9,13 +9,18 @@ const testimonials = [
   },
   {
     name: "Terrie",
-    location: "México",
+    location: "Mexico",
     text: "Just a quick note to say thank you for standing in the gap with me the other day. The Bible says 'where two or more are gathered in my name, there shall I be.' When the session was over, my spirit felt calmer, peaceful. I really appreciate you.",
   },
   {
     name: "Julie",
     location: "Washington",
     text: "My guided meditation session with Lea Murray through Aligned Heart and Soul was a truly meaningful experience. Lea was a genuine spiritual guide creating a safe and peaceful space for reflection on the areas of my life where I want to bring God closer. The session felt deeply meditative and intentional. Lea did a beautiful job of setting clear expectations, asking thoughtful and insightful questions, and giving me the freedom to share - or simply reflect quietly. I felt supported, never pressured, and completely at ease throughout the experience. I'm so grateful for the clarity and spiritual grounding I gained in our time together.",
+  },
+  {
+    name: "Anthea",
+    location: "Mexico",
+    text: "Lea was amazing and gentle with me. She walked me through the process step by step which allowed me to relax and receive her guidance during the healing session. Her passion for what she does really shines through!100% recommend!!!",
   },
 ]
 
@@ -43,7 +48,7 @@ export function Testimonials() {
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 items-stretch">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2 items-stretch">
           {testimonials.map((t) => (
             <Card
               key={t.name}
