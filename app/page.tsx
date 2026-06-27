@@ -55,7 +55,41 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-3">            
+
+            {/* The Process */}
+            <Card className="border-2 hover:border-secondary transition-all duration-300 hover:shadow-xl">
+              <CardContent className="p-8">
+                <div className="mb-6 flex h-32 w-32 sm:h-40 sm:w-40 items-center justify-center mx-auto">
+                <Image
+                  src="/heart3.avif"
+                  alt="Heart"
+                  width={200}
+                  height={200}
+                  className="object-contain w-full h-full"
+                />
+                </div>
+                <h3 className="text-2xl font-bold mb-4 text-balance">The Process</h3>
+                <p className="text-muted-foreground leading-relaxed mb-6">
+                Experience a structured progression toward freedom and purpose. True breakthrough requires clearing the ground through deliverance first, followed by deep inner healing to rebuild and secure your identity in Christ
+                </p>
+                <div className="space-y-3">
+                  <div className="flex items-start gap-2">
+                    <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
+                    <p className="text-sm leading-relaxed">First Deliverance, Then Healing: Clear spiritual blockages first so your heart can fully receive and retain God's deep, restorative healing.</p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
+                    <p className="text-sm leading-relaxed">Renew the Mind: Replace old, destructive thought patterns and lies with the absolute truth of Scripture to build a fortress around your newly healed heart.</p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
+                    <p className="text-sm leading-relaxed">Maintain Your Freedom: Walk daily with the Holy Spirit to guard your peace, recognizing that lasting freedom is a continual lifestyle rather than a one-time event. Put on the full armor of God each morning to stand firm against the enemy's subtle tactics, staying rooted in Word and community so the doors to your past remain permanently shut</p>
+                  </div>                  
+                </div>
+              </CardContent>
+            </Card>
+
             {/* Heart Healing */}
             <Card className="border-2 hover:border-primary transition-all duration-300 hover:shadow-xl">
               <CardContent className="p-8">
@@ -70,7 +104,7 @@ export default function Home() {
               </div>
                 <h3 className="text-2xl font-bold mb-4 text-balance">Heart Healing</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                Guided spiritual prayer designed to help people heal from rejection, shame, emotional brokenness, and identity wounds
+                Guided spiritual prayer designed to help you heal from rejection, shame, emotional brokenness, and identity wounds
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-start gap-2">
@@ -87,38 +121,9 @@ export default function Home() {
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0" />
                     <p className="text-sm leading-relaxed">Reclaim Your True Identity in Christ: Trade the weight of shame and rejection for the uplifting truth of who God says you are</p>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Soul Alignment */}
-            <Card className="border-2 hover:border-secondary transition-all duration-300 hover:shadow-xl">
-              <CardContent className="p-8">
-                <div className="mb-6 flex h-32 w-32 sm:h-40 sm:w-40 items-center justify-center mx-auto">
-                <Image
-                  src="/heart3.avif"
-                  alt="Heart"
-                  width={200}
-                  height={200}
-                  className="object-contain w-full h-full"
-                />
-                </div>
-                <h3 className="text-2xl font-bold mb-4 text-balance">Soul Alignment</h3>
-                <p className="text-muted-foreground leading-relaxed mb-6">
-                Conform your life to the perfect measure of God’s pre-ordained will. Like a ruler, His Word is the standard we seek and embrace to ensure our path stays true
-                </p>
-                <div className="space-y-3">
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Align to the Standard: Seek God's heart and adjust your life to His unwavering measure of truth</p>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Resist the Enemy: Reject the enemy's influence and draw near to God to experience true spiritual freedom</p>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Trust His Design: Trade the stress of your own timing for the peace and authority of God's perfect plan</p>
+                    <p className="text-sm leading-relaxed">Partner with a Prophetic Coach: Secure your breakthrough through ongoing prophetic coaching, giving you the strategic accountability needed to stay free and walk out your purpose.</p>
                   </div>
                 </div>
               </CardContent>
@@ -138,20 +143,24 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-balance">Prophetic Coaching</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                Align your daily decisions with divine purpose through one-on-one mentorship that bridges spiritual discernment with strategic life coaching
+                Secure your breakthrough and sustain your healing through one-on-one mentorship that bridges divine revelation with practical, daily life coaching
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Strategic Decision-Making: Gain clarity on career, family, and ministry choices through focused prophetic insight</p>
+                    <p className="text-sm leading-relaxed">Sustain Your Healing: Partner with a strategic guide to guard your freedom, prevent old patterns from returning, and actively maintain the spiritual ground you have gained</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Compassionate Accountability: Benefit from a safe, non-judgmental relationship that keeps you grounded and focused on your spiritual growth</p>
+                    <p className="text-sm leading-relaxed">Strategic Decision-Making: Gain absolute clarity on your career, family, and ministry choices through focused, Spirit-led prophetic insight</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Internal Alignment: Harmonize your soul, spirit, and everyday actions to live with authentic authority</p>
+                    <p className="text-sm leading-relaxed">Compassionate Accountability: Walk in a safe, non-judgmental relationship that keeps you grounded, fiercely focused, and continually growing in your spiritual walk</p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0" />
+                    <p className="text-sm leading-relaxed">Internal Alignment: Harmonize your soul, spirit, and everyday actions to live with authentic, God-given authority. Working together, we will bridge the gap between your spiritual breakthrough and your physical reality</p>
                   </div>
                 </div>
               </CardContent>

@@ -21,14 +21,15 @@ const page = () => {
 
           <Card className="border-2 border-primary/20 overflow-hidden">
             <CardContent className="p-0">
-              <div className="grid md:grid-cols-2 gap-0">
+              <div className="grid md:grid-cols-2 gap-0 md:items-stretch">
                 {/* Image Section */}
-                <div className="relative h-[400px] md:h-[500px] bg-gradient-to-br from-primary/10 to-secondary/10">
+                <div className="relative h-[400px] md:h-auto md:min-h-full bg-gradient-to-br from-primary/10 to-secondary/10">
                   <Image
-                    src="/our-heart/lea-coach.webp"
+                    src="/our-heart/lea-coach-2.webp"
                     alt="Lea Murray - Prophetic Soul Alignment Coach"
                     fill
-                    className="object-cover"
+                    sizes="(min-width: 768px) 50vw, 100vw"
+                    className="object-cover object-top rounded-2xl"
                     priority
                   />
                 </div>
@@ -36,11 +37,14 @@ const page = () => {
                 {/* Content Section */}
                 <div className="p-8 sm:p-12 flex flex-col justify-center bg-gradient-to-br from-background to-muted/50">
                   <h3 className="text-2xl sm:text-3xl font-bold mb-4">Lea Murray</h3>
-                  <p className="text-lg text-primary font-medium mb-6">Waykeeper & Prophetic Alignment Coach</p>
+                  <p className="text-lg text-primary font-medium mb-6">Prophetic Alignment Coach</p>
 
-                  <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <div className="space-y-4 font-medium text-foreground leading-relaxed">
+                    <p className="font-medium text-foreground">
+                    I know what it feels like to struggle. For years, I carried a heavy burden of rejection, fear, and a fractured identity. Everything changed when I experienced the power of deliverance and inner healing—swapping a life of constant striving for the unshakable freedom found only in Christ. Anchored in the truth of John 14:6—that Jesus is the Way, the Truth, and the Life—I now dedicate my life to guiding you through your own unseen battles. Let's work together so you can step boldly into your divine mandate.
+                    </p>
                     <p>
-                    As a Waykeeper, Lea Murray walks alongside individuals, helping them recognize their God-given greatness and live fully in alignment with God's purpose. Through prophetic insight, soul alignment, and personalized one-on-one guidance, she accompanies people as the Holy Spirit illuminates clarity, fulfillment, and transformative growth.
+                    I partner with you to unlock your God-given greatness. You are not a victim of your circumstances, and you were created to live fully in alignment with God's purpose. Through prophetic insight, spiritual breakthrough, and strategic one-on-one mentorship, I walk alongside you as a witness to what happens when the Holy Spirit brings clarity, bold confidence, and unstoppable growth.
                     </p>
                     {/* <p>
                       Everything changed when she encountered the transformative power of deliverance and inner healing. What once felt like endless striving became clarity, freedom, and an unshakable awareness of her true identity in Christ.
@@ -48,9 +52,6 @@ const page = () => {
                     <p className="font-medium">
                       Now, Lea carries that same message of hope and breakthrough to others, guiding them toward spiritual freedom and alignment with God's purpose.
                     </p> */}
-                    <p className="font-medium text-foreground">
-                    This mission is born from experience, as Lea once carried the heavy weight of rejection, fear, and a fractured identity. Her turning point came through the power of deliverance and inner healing, which traded  years of striving for an unshakable freedom in Christ. Drawing inspiration from the truth that Jesus is the Way, the Truth, and the Life (John 14:6), Lea serves as a dedicated guide to help you navigate your own unseen battles and step confidently into your divine mandate.
-                    </p>
                   </div>
                 </div>
               </div>

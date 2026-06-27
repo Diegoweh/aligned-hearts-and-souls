@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Check, Heart, Users, ArrowRight, Sparkles, Gift, Flame } from "lucide-react"
+import { Check, Heart, Users, ArrowRight, Sparkles, Gift, Flame, HandHeart, HeartHandshake, Crown } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { CurveSeparator } from '@/components/curve-separator'
@@ -27,6 +27,15 @@ const page = () => {
       {/* Pathways Section */}
       <section className="py-20 bg-background">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+          {/* INVEST IN YOUR GROWTH */}
+          <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12  p-8 sm:p-12">            
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-foreground">"...the free gift of God is eternal life in Christ Jesus our Lord." — Romans 6:23</h2>
+            <p className="text-lg leading-relaxed text-foreground/80">
+            Receive our free gift of prayer and  first session of inner healing. Experience deep peace, healing, and spiritual alignment in your daily life. Simply sign up today to claim these two zero-cost blessings and watch God's restorative power transform your journey.
+            </p>
+          </div>             
+
           <div className="grid lg:grid-cols-2 gap-8">
             {/* MY GIFT TO YOU */}
             <Card className="border-2 border-primary/30 hover:border-primary transition-all duration-300 hover:shadow-2xl flex flex-col">
@@ -330,8 +339,96 @@ const page = () => {
                   </Button>
                 </div>
               </CardContent>
-            </Card>                       
+            </Card>                                
 
+          </div>
+          {/* INVEST IN YOUR GROWTH */}
+          <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12 rounded-2xl border-2 border-primary/30 bg-gradient-to-br from-primary/10 to-secondary/5 p-8 sm:p-12 shadow-lg">
+            <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary/15 mb-6">
+              <Sparkles className="h-8 w-8 text-primary" />
+            </div>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-foreground">Invest in Your Growth</h2>
+            <p className="text-lg leading-relaxed text-foreground/80">
+              While the Gospel of Jesus Christ is free to all, the dedicated time, professional mentorship,
+              and strategic resources required to facilitate these deep-healing pathways carry an operational cost.
+              Scripture reminds us that &ldquo;the worker is worthy of his wages&rdquo; (Luke 10:7) and that we should
+              value the spiritual labor poured into our lives (1 Corinthians 9:14).
+              When you invest in a session, you are not buying God's grace—you are honoring the specialized time and tools dedicated to your breakthrough.
+            </p>
+          </div>   
+        </div>
+      </section>
+
+      {/* SPONSOR A JOURNEY */}
+      <section className="py-20 bg-muted/40">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary/15 mb-6">
+              <HandHeart className="h-8 w-8 text-primary" />
+            </div>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
+              Sponsor a Journey: The Kingdom Scholarship Fund
+            </h2>
+            <p className="mx-auto max-w-3xl text-lg leading-relaxed text-muted-foreground">
+              We believe financial limitations should never block someone from experiencing deep inner healing.
+              Because Aligned Heart &amp; Soul is a proud program of Collaborising, a registered 501(c)(3) nonprofit
+              organization, all over-and-above donations are fully tax-deductible.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <Card className="border-2 border-primary/20 hover:border-primary/50 transition-all duration-300">
+              <CardContent className="p-6 text-center">
+                <div className="inline-flex items-center justify-center h-12 w-12 rounded-xl bg-primary/10 mb-4">
+                  <Check className="h-6 w-6 text-primary" />
+                </div>
+                <h3 className="text-lg font-bold mb-2">Book Your Session</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Pay the standard rate for your personal mentorship and tools.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-primary/20 hover:border-primary/50 transition-all duration-300">
+              <CardContent className="p-6 text-center">
+                <div className="inline-flex items-center justify-center h-12 w-12 rounded-xl bg-primary/10 mb-4">
+                  <HeartHandshake className="h-6 w-6 text-primary" />
+                </div>
+                <h3 className="text-lg font-bold mb-2">Pay It Forward</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Add a donation to your booking to partially or fully sponsor a session for a believer currently facing financial hardship.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 border-primary/20 hover:border-primary/50 transition-all duration-300">
+              <CardContent className="p-6 text-center">
+                <div className="inline-flex items-center justify-center h-12 w-12 rounded-xl bg-primary/10 mb-4">
+                  <Crown className="h-6 w-6 text-primary" />
+                </div>
+                <h3 className="text-lg font-bold mb-2">Become a Kingdom Patron</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Make a one-time or monthly tax-deductible donation directly through Collaborising to fund our community scholarship pool.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="text-center">
+            <Button
+              asChild
+              size="lg"
+              className="bg-primary hover:bg-primary/90 text-lg px-8 py-6"
+            >
+              <a
+                href="https://buy.stripe.com/28E5kE5XM0fb59pdPw0Fi0a"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Become a Kingdom Patron
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
+            </Button>
           </div>
         </div>
       </section>
