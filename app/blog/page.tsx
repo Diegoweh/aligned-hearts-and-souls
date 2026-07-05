@@ -8,6 +8,20 @@ const posts = [
     src: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1624605791966785%2F&show_text=false&width=476&t=0",
     width: 476,
     height: 476,
+  },  
+  {
+    title: "Reel 1",
+    type: "video",
+    src: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1325898949609644%2F&show_text=false&width=476&t=0",
+    width: 476,
+    height: 476,
+  },
+  {
+    title: "Reel 2",
+    type: "video",
+    src: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1338998888389669%2F&show_text=false&width=476&t=0",
+    width: 476,
+    height: 476,
   },
   {
     title: "Latest Post",
