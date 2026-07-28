@@ -16,9 +16,9 @@ const page = () => {
             Your Journey to Freedom
           </h1>
           <p className="mt-6 text-lg sm:text-xl leading-relaxed text-brand-pink-foreground">
-            At Aligned Heart & Soul, we offer Spirit-led pathways for inner healing, soul alignment, and freedom
-            from rejection and soul wounds. Each journey combines prayer, prophetic guidance, and practical steps —
-            so you can heal deeply, live boldly, and walk in your God-given purpose.
+            You were made to live free, not defined by wounds. At Aligned Heart & Soul, we provide Spirit-led
+            pathways for inner healing and overcoming the weight of rejection. Through prayer, prophetic guidance,
+            and practical steps, we equip you to heal, live courageously, and master your God-given purpose.
           </p>
         </div>
       </section>
@@ -28,13 +28,28 @@ const page = () => {
       <section className="py-20 bg-background">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-          {/* INVEST IN YOUR GROWTH */}
-          <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12  p-8 sm:p-12">            
+          {/* FREE GIFT BANNER */}
+          <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12  p-8 sm:p-12">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-foreground">"...the free gift of God is eternal life in Christ Jesus our Lord." — Romans 6:23</h2>
             <p className="text-lg leading-relaxed text-foreground/80">
             Receive our free gift of prayer and  first session of inner healing. Experience deep peace, healing, and spiritual alignment in your daily life. Simply sign up today to claim these two zero-cost blessings and watch God's restorative power transform your journey.
             </p>
-          </div>             
+          </div>
+
+          {/* INVEST IN YOUR GROWTH */}
+          <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12 rounded-2xl border-2 border-primary/30 bg-gradient-to-br from-primary/10 to-secondary/5 p-8 sm:p-12 shadow-lg">
+            <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary/15 mb-6">
+              <Sparkles className="h-8 w-8 text-primary" />
+            </div>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-foreground">Invest in Your Growth</h2>
+            <p className="text-lg leading-relaxed text-foreground/80">
+              While the Gospel of Jesus Christ is free to all, the dedicated time, professional mentorship,
+              and strategic resources required to facilitate these deep-healing pathways carry an operational cost.
+              Scripture reminds us that &ldquo;the worker is worthy of his wages&rdquo; (Luke 10:7) and that we should
+              value the spiritual labor poured into our lives (1 Corinthians 9:14).
+              When you invest in a session, you are not buying God's grace—you are honoring the specialized time and tools dedicated to your breakthrough.
+            </p>
+          </div>
 
           <div className="grid lg:grid-cols-2 gap-8">
             {/* MY GIFT TO YOU */}
@@ -342,20 +357,6 @@ const page = () => {
             </Card>                                
 
           </div>
-          {/* INVEST IN YOUR GROWTH */}
-          <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12 rounded-2xl border-2 border-primary/30 bg-gradient-to-br from-primary/10 to-secondary/5 p-8 sm:p-12 shadow-lg">
-            <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary/15 mb-6">
-              <Sparkles className="h-8 w-8 text-primary" />
-            </div>
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-foreground">Invest in Your Growth</h2>
-            <p className="text-lg leading-relaxed text-foreground/80">
-              While the Gospel of Jesus Christ is free to all, the dedicated time, professional mentorship,
-              and strategic resources required to facilitate these deep-healing pathways carry an operational cost.
-              Scripture reminds us that &ldquo;the worker is worthy of his wages&rdquo; (Luke 10:7) and that we should
-              value the spiritual labor poured into our lives (1 Corinthians 9:14).
-              When you invest in a session, you are not buying God's grace—you are honoring the specialized time and tools dedicated to your breakthrough.
-            </p>
-          </div>   
         </div>
       </section>
 

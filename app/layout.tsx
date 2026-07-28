@@ -142,8 +142,8 @@ export default function RootLayout({
           '@type': 'Offer',
           itemOffered: {
             '@type': 'Service',
-            name: 'Soul Alignment',
-            description: 'Align your thoughts, emotions, and life with God\'s will and biblical principles'
+            name: 'The Process',
+            description: 'A structured progression through deliverance and inner healing to rebuild your identity in Christ'
           }
         },
         {

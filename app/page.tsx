@@ -10,8 +10,8 @@ import type { Metadata } from "next"
 import { Testimonials } from "@/components/testimonials"
 
 export const metadata: Metadata = {
-  title: "Home | Faith-Based Heart Healing & Soul Alignment",
-  description: "Begin your journey to emotional and spiritual freedom through Christian heart healing, soul alignment, and prophetic coaching. Experience God's restorative power and walk in your divine purpose.",
+  title: "Home | Faith-Based Heart Healing & Prophetic Coaching",
+  description: "Begin your journey to emotional and spiritual freedom through Christian heart healing, deliverance, and prophetic coaching. Experience God's restorative power and walk in your divine purpose.",
   openGraph: {
     title: "Aligned Heart & Soul | Christian Healing Ministry",
     description: "Transform your life through faith-based heart healing and spiritual restoration.",

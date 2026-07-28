@@ -213,16 +213,6 @@ const page = () => {
         </>
       ),
     },
-    {
-      question: "What is a Waykeeper?",
-      answer: (
-        <>          
-          <p>
-            A Waykeeper walks with you on the sacred path of Holy Spirit-led alignment, restoration, and fulfillment.
-          </p>
-        </>
-      ),
-    },
   ]
 
   return (
