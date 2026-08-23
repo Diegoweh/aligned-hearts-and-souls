@@ -36,22 +36,13 @@ const page = () => {
 
                 {/* Content Section */}
                 <div className="p-8 sm:p-12 flex flex-col justify-center bg-gradient-to-br from-background to-muted/50">
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-4">Lea Murray</h3>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-4">Lea Murray Quintana, MPH, MA</h3>
                   <p className="text-lg text-primary font-medium mb-6">Prophetic Alignment Coach</p>
 
                   <div className="space-y-4 font-medium text-foreground leading-relaxed">
                     <p className="font-medium text-foreground">
-                    I know what it feels like to struggle. For years, I carried a heavy burden of rejection, fear, and a fractured identity. Everything changed when I experienced the power of deliverance and inner healing—swapping a life of constant striving for the unshakable freedom found only in Christ. Anchored in the truth of John 14:6—that Jesus is the Way, the Truth, and the Life—I now dedicate my life to guiding you through your own unseen battles. Let's work together so you can step boldly into your divine mandate.
+                    Lea Murray Quintana is a gifted prophetic coach, spiritual strategist, and dual-Master's professional holding advanced degrees in Public Health Nutrition and African Diaspora Studies. Dedicated to helping women unlock their highest Kingdom calling, her coaching bridges the gap between divine alignment, holistic wellness, and practical execution. She creates a secure, confidential space for sudden breakthroughs, helping you quiet the internal noise, reclaim your identity in Christ, and cultivate an unshakeable ground of peace.
                     </p>
-                    <p>
-                    I partner with you to unlock your God-given greatness. You are not a victim of your circumstances, and you were created to live fully in alignment with God's purpose. Through prophetic insight, spiritual breakthrough, and strategic one-on-one mentorship, I walk alongside you as a witness to what happens when the Holy Spirit brings clarity, bold confidence, and unstoppable growth.
-                    </p>
-                    {/* <p>
-                      Everything changed when she encountered the transformative power of deliverance and inner healing. What once felt like endless striving became clarity, freedom, and an unshakable awareness of her true identity in Christ.
-                    </p>
-                    <p className="font-medium">
-                      Now, Lea carries that same message of hope and breakthrough to others, guiding them toward spiritual freedom and alignment with God's purpose.
-                    </p> */}
                   </div>
                 </div>
               </div>
@@ -70,7 +61,7 @@ const page = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">Our Heart</h2>
             <p className="mt-4 text-lg text-muted-foreground">
-            Spirit-led transformation through healing and deliverance
+            Holy Spirit-led deliverance, heart healing, and high-capacity coaching.
             </p>
           </div>
 
@@ -116,10 +107,10 @@ const page = () => {
                     <h3 className="text-2xl sm:text-3xl font-bold">Inspiration</h3>
                   </div>
                   <p className="text-lg leading-relaxed text-muted-foreground mb-6">
-                  After receiving life-changing support from experts in deliverance and inner healing, I am driven to see others experience that same profound transformation.
+                  At Aligned Heart & Soul, we help believers dismantle the strongholds of rejection and reclaim their original design. Through deliverance and inner healing, we transition you from weariness and spiritual survival into true Kingdom authority.
                   </p>
-                  <p className="text-foreground font-medium leading-relaxed">
-                  I walk alongside you on your unique, Holy Spirit-inspired journey because, as Scripture says, "two are better than one" (Ecclesiastes 4:9). My mission is to offer the partnership and spiritual support needed to navigate your path from healing into the fullness of your divine identity.
+                  <p className="text-lg leading-relaxed text-muted-foreground">
+                  Whether you are scaling your professional impact or seeking deep emotional restoration, our process aligns your heart with God's truth. We partner with you to stop the exhausting cycle of striving, protect your peace, and walk in the absolute fullness of your identity in Christ.
                   </p>
                 </div>
                 <div className="md:col-span-2 relative h-[300px] md:h-auto min-h-[300px] bg-gradient-to-br from-secondary/20 to-secondary/5 order-1 md:order-2">

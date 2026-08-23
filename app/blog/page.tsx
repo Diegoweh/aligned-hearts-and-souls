@@ -3,9 +3,23 @@ import { Card, CardContent } from "@/components/ui/card"
 
 const posts = [
   {
+    title: "Welcome to Aligned Heart and Soul",
+    type: "post",
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flea.murray.796%2Fposts%2Fpfbid0fVQ21Joysja6kGdMZ7kdSXpaJwRebHmib8MQGwM3GedsdJUDKscq8RbWfR3B7xgJl&show_text=true&width=500",
+    width: 500,
+    height: 626,
+  },
+  {
     title: "What is Inner Healing ?",
     type: "video",
     src: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1624605791966785%2F&show_text=false&width=476&t=0",
+    width: 476,
+    height: 476,
+  },
+  {
+    title: "Navigating the Pain of Betrayal",
+    type: "video",
+    src: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2364969487358732%2F&show_text=false&width=476&t=0",
     width: 476,
     height: 476,
   },  
@@ -17,13 +31,6 @@ const posts = [
     height: 476,
   },
   {
-    title: "People are people all over the world",
-    type: "video",
-    src: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1338998888389669%2F&show_text=false&width=476&t=0",
-    width: 476,
-    height: 476,
-  },
-  {
     title: "A Mother's Day Prayer",
     type: "post",
     src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0cGXQfnMGjHCKJyRqS7fQXVFRHt1RXborSgS47d98zvmWP5dj6yopwkkwE4NsiysXl%26id%3D61581082019458&show_text=true&width=500",
@@ -31,19 +38,19 @@ const posts = [
     height: 600,
   },
   {
-    title: "Welcome to Aligned Heart and Soul",
+    title: "Forgotten Father's",
     type: "post",
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flea.murray.796%2Fposts%2Fpfbid0fVQ21Joysja6kGdMZ7kdSXpaJwRebHmib8MQGwM3GedsdJUDKscq8RbWfR3B7xgJl&show_text=true&width=500",
+    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flea.murray.796%2Fposts%2Fpfbid02BHDCnx7TT7SferR8DBo16CsTELGXf1EyuVjhPSAQLwuFB2APqu5ZBw4rN5nfpbcKl&show_text=true&width=500",
     width: 500,
-    height: 626,
-  },
+    height: 706,
+  },  
   {
-    title: "Navigating the Pain of not to Betrayal",
+    title: "People are people all over the world",
     type: "video",
-    src: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2364969487358732%2F&show_text=false&width=476&t=0",
+    src: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1338998888389669%2F&show_text=false&width=476&t=0",
     width: 476,
     height: 476,
-  },
+  },  
   {
     title: "He Restores My Soul",
     type: "video",
@@ -106,14 +113,7 @@ const posts = [
     src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flea.murray.796%2Fposts%2Fpfbid0h2QQRiZQLYkcecxmazebMKQUAquAoh9QdW5WTrLpJSqTsBkymM9Vx9r2vnyFHgSVl&show_text=true&width=500",
     width: 500,
     height: 489,
-  },
-  {
-    title: "Forgotten Father's",
-    type: "post",
-    src: "https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flea.murray.796%2Fposts%2Fpfbid02BHDCnx7TT7SferR8DBo16CsTELGXf1EyuVjhPSAQLwuFB2APqu5ZBw4rN5nfpbcKl&show_text=true&width=500",
-    width: 500,
-    height: 706,
-  },
+  },  
   {
     title: "Fiesta del Futbol",
     type: "post",

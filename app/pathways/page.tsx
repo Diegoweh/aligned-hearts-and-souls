@@ -13,12 +13,13 @@ const page = () => {
       <section className="py-20 bg-primary text-brand-pink-foreground">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-            Your Journey to Freedom
+          Transformative Pathways
           </h1>
           <p className="mt-6 text-lg sm:text-xl leading-relaxed text-brand-pink-foreground">
-            You were made to live free, not defined by wounds. At Aligned Heart & Soul, we provide Spirit-led
-            pathways for inner healing and overcoming the weight of rejection. Through prayer, prophetic guidance,
-            and practical steps, we equip you to heal, live courageously, and master your God-given purpose.
+          Growth is not a one-size-fits-all formula. Some seasons require looking inward to mend your foundation, while other seasons demand looking forward to expand your influence.
+          </p>
+          <p className="mt-4 text-lg sm:text-xl leading-relaxed text-brand-pink-foreground">
+          To meet you exactly where you are, we have designed three distinct, strategic pathways rooted in biblical truth and prophetic guidance:
           </p>
         </div>
       </section>
@@ -27,6 +28,28 @@ const page = () => {
       {/* Pathways Section */}
       <section className="py-20 bg-background">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+          {/* THREE PATHWAYS OVERVIEW */}
+          <div className="grid sm:grid-cols-3 gap-6 mb-16">
+            <div className="rounded-2xl border-2 border-primary/20 p-6 text-center">
+              <h3 className="font-bold text-lg mb-2">Pathway 1: Private Heart Healing & Deliverance</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Deep, one-on-one sessions for women ready to resolve spiritual barriers and claim total emotional freedom.
+              </p>
+            </div>
+            <div className="rounded-2xl border-2 border-primary/20 p-6 text-center">
+              <h3 className="font-bold text-lg mb-2">Pathway 2: High-Performance Leadership Coaching</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Strategic, one-on-one partnerships for visionaries focused on scaling their career, mastering strategy, and protecting their peace.
+              </p>
+            </div>
+            <div className="rounded-2xl border-2 border-secondary/20 p-6 text-center">
+              <h3 className="font-bold text-lg mb-2">Pathway 3: Group Discipleship Mentorship</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                A practical, collaborative journey to build consistent spiritual habits, relational wisdom, and daily integrity.
+              </p>
+            </div>
+          </div>
 
           {/* FREE GIFT BANNER */}
           <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12  p-8 sm:p-12">
@@ -42,6 +65,9 @@ const page = () => {
               <Sparkles className="h-8 w-8 text-primary" />
             </div>
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-foreground">Invest in Your Growth</h2>
+            <p className="text-lg font-semibold italic text-foreground mb-4">
+              Why am I paying for Christian mentorship? Isn&apos;t God&apos;s word free?
+            </p>
             <p className="text-lg leading-relaxed text-foreground/80">
               While the Gospel of Jesus Christ is free to all, the dedicated time, professional mentorship,
               and strategic resources required to facilitate these deep-healing pathways carry an operational cost.
@@ -159,106 +185,147 @@ const page = () => {
               </CardContent>
             </Card>
 
-            {/* RESTORATION PATH - Individual */}
-            <Card className="border-2 border-primary/30 hover:border-primary transition-all duration-300 hover:shadow-2xl flex flex-col">
+            {/* RESTORATION & LEADERSHIP PATHWAYS - Individual */}
+            <Card className="border-2 border-primary/30 hover:border-primary transition-all duration-300 hover:shadow-2xl flex flex-col lg:col-span-2">
               <CardContent className="p-8 flex flex-col flex-1">
                 {/* Header */}
                 <div className="text-center mb-8">
                   <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary/10 mb-4">
                     <Heart className="h-8 w-8 text-primary" />
                   </div>
-                  <h2 className="text-3xl font-bold mb-2">Restoration Path</h2>
-                  <p className="text-xl text-primary font-medium">Individual Journey to Freedom</p>
+                  <h2 className="text-3xl font-bold mb-2">Restoration Pathway &amp; The Leadership Pathway</h2>
+                  <p className="text-xl text-primary font-medium">One-on-One Prophetic Coaching</p>
                 </div>
 
                 {/* Description */}
-                <p className="text-muted-foreground leading-relaxed mb-6 text-center">
-                  Personalized, Spirit-led sessions with your prophetic coach that partner with the Holy Spirit for
-                  inner healing, prayer, and alignment. Each session is designed to help you break free from
-                  rejection, renounce lies, and realign your soul with God's truth.
+                <p className="text-muted-foreground leading-relaxed mb-8 text-center max-w-3xl mx-auto">
+                  Choose the Restoration Pathway for deep heart healing and deliverance, or the Leadership Pathway for
+                  strategic career alignment and sustainable growth. Both options provide confidential, one-on-one
+                  prophetic coaching designed to protect your peace and unlock your true identity in Christ.
                 </p>
 
-                {/* What to Expect */}
-                <div className="mb-6">
-                  <h3 className="font-bold text-lg mb-4 flex items-center gap-2">
-                    <Sparkles className="h-5 w-5 text-primary" />
-                    What to Expect:
-                  </h3>
-                  <ul className="space-y-3">
-                    <li className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-muted-foreground">6 session Starter Pack</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-muted-foreground">
-                        60 minutes of individualized prophetic coaching, prayer, and inner healing
-                      </span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-muted-foreground">
-                        Identify and uproot common lies that deplete your soul
-                      </span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-muted-foreground">
-                        Break strongholds and cycles that block your freedom
-                      </span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-muted-foreground">
-                        Speak God's truth and promises over your life
-                      </span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span className="text-muted-foreground">
-                        Learn to bless yourself and walk in daily alignment
-                      </span>
-                    </li>
-                  </ul>
-                </div>
+                <div className="grid md:grid-cols-2 gap-8">
+                  {/* Restoration column */}
+                  <div className="flex flex-col">
+                    <h3 className="font-bold text-lg mb-4 flex items-center gap-2">
+                      <Sparkles className="h-5 w-5 text-primary" />
+                      Restoration Pathway
+                    </h3>
+                    <p className="text-muted-foreground leading-relaxed mb-4">
+                      Personalized, Spirit-led sessions with your prophetic coach that partner with the Holy Spirit
+                      for inner healing, prayer, and alignment.
+                    </p>
+                    <ul className="space-y-3 mb-6">
+                      <li className="flex items-start gap-3">
+                        <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-muted-foreground">
+                          6 Session Starter Pack &mdash; 60 minutes of individualized prophetic coaching, prayer, and inner healing
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-muted-foreground">
+                          Identify and uproot common lies that deplete your soul
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-muted-foreground">
+                          Break strongholds and cycles that block your freedom
+                        </span>
+                      </li>
+                    </ul>
+                    <div className="mt-auto pt-2">
+                      <Button
+                        asChild
+                        size="lg"
+                        className="w-full bg-primary hover:bg-primary/90 text-lg py-6"
+                      >
+                        <Link href="https://buy.stripe.com/14A6oIeui5zv9pFcLs0Fi09" target="_blank">
+                          Unlock the Restoration Pathway
+                          <ArrowRight className="ml-2 h-5 w-5" />
+                        </Link>
+                      </Button>
+                    </div>
+                  </div>
 
-                {/* What you Receive */}
-                <div className="mb-8">
-                  <h3 className="font-bold text-lg mb-4">What You Receive:</h3>
-                  <div className="space-y-3 bg-primary/5 p-4 rounded-lg">
-                    <p className="flex items-start gap-2">
-                      <span className="text-primary font-bold">•</span>
-                      <span className="text-foreground">
-                        <strong>Clarity</strong> to see the root of struggles and the path forward to healing
-                      </span>
+                  {/* Leadership column */}
+                  <div className="flex flex-col">
+                    <h3 className="font-bold text-lg mb-4 flex items-center gap-2">
+                      <Sparkles className="h-5 w-5 text-primary" />
+                      The Leadership Pathway
+                    </h3>
+                    <p className="text-muted-foreground leading-relaxed mb-4">
+                      For visionaries ready to scale, build strategy, and protect their peace.
                     </p>
-                    <p className="flex items-start gap-2">
-                      <span className="text-primary font-bold">•</span>
-                      <span className="text-foreground">
-                        <strong>Confidence</strong> to walk boldly in your true identity, free from fear and doubt
-                      </span>
-                    </p>
-                    <p className="flex items-start gap-2">
-                      <span className="text-primary font-bold">•</span>
-                      <span className="text-foreground">
-                        <strong>Peace</strong> to restore your mind, body, soul, and spirit
-                      </span>
-                    </p>
+                    <ul className="space-y-3 mb-6">
+                      <li className="flex items-start gap-3">
+                        <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-muted-foreground">
+                          6 Session Starter Pack &mdash; 60 minutes of individualized prophetic coaching, prayer, and inner healing
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-muted-foreground">
+                          <strong>Prophetic Strategic Alignment:</strong> Spirit-led direction for precise choices in your career, family, or business.
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-muted-foreground">
+                          <strong>Lifestyle and Schedule Design:</strong> Structure your calendar to scale your influence without burning out.
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                        <span className="text-muted-foreground">
+                          <strong>Focused Leadership Mentorship:</strong> A safe, private container to keep you moving forward in your authority.
+                        </span>
+                      </li>
+                    </ul>
+                    <div className="mt-auto pt-2">
+                      <Button
+                        asChild
+                        size="lg"
+                        className="w-full bg-primary hover:bg-primary/90 text-lg py-6"
+                      >
+                        <a
+                          href="https://wa.me/19547368343?text=Hello%20I%27d%20like%20to%20learn%20more%20about%20the%20Leadership%20Pathway"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Unlock the Leadership Pathway
+                          <ArrowRight className="ml-2 h-5 w-5" />
+                        </a>
+                      </Button>
+                    </div>
                   </div>
                 </div>
 
-                {/* CTA Button */}
-                <div className="mt-auto pt-4">
-                  <Button
-                    asChild
-                    size="lg"
-                    className="w-full bg-primary hover:bg-primary/90 text-lg py-6"
-                  >
-                    <Link href="https://buy.stripe.com/14A6oIeui5zv9pFcLs0Fi09" target="_blank">
-                      Unlock Your 1:1 Journey
-                      <ArrowRight className="ml-2 h-5 w-5" />
-                    </Link>
-                  </Button>
+                {/* What You Receive */}
+                <div className="mt-8">
+                  <h3 className="font-bold text-lg mb-4 text-center">What You Receive:</h3>
+                  <div className="grid sm:grid-cols-3 gap-4 bg-primary/5 p-6 rounded-lg">
+                    <p className="flex items-start gap-2">
+                      <span className="text-primary font-bold">•</span>
+                      <span className="text-foreground">
+                        <strong>Strategic Foresight:</strong> Discernment to clarify choices and map clear professional expansion.
+                      </span>
+                    </p>
+                    <p className="flex items-start gap-2">
+                      <span className="text-primary font-bold">•</span>
+                      <span className="text-foreground">
+                        <strong>Grounded Presence:</strong> Authority to lead boldly from your true identity, free from performance anxiety.
+                      </span>
+                    </p>
+                    <p className="flex items-start gap-2">
+                      <span className="text-primary font-bold">•</span>
+                      <span className="text-foreground">
+                        <strong>Sustainability:</strong> Systems to calm a racing mind, preserve your energy, and protect your peace.
+                      </span>
+                    </p>
+                  </div>
                 </div>
               </CardContent>
             </Card>

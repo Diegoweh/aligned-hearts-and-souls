@@ -35,11 +35,13 @@ export default function Home() {
       {/* Mission Statement */}
       <section className="py-16 bg-primary text-brand-pink-foreground ">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-xl leading-relaxed text-white">
-            Our mission is to help individuals heal inner wounds, align their hearts and souls with God, and walk
-            confidently in their God-given purpose through His presence, truth, and restoration.
+          <p className="text-lg font-semibold uppercase tracking-wide text-white/80 mb-2">
+            Rooted in Faith. Aligned for Impact.
           </p>
-        </div>        
+          <p className="text-xl leading-relaxed text-white">
+          Where Passionate Women Step Into Their Absolute Highest Calling. We serve two types of powerful women: those ready to restore their foundations, and those ready to activate their next level of personal and entrepreneurial authority.
+          </p>
+        </div>
       </section>
 
       
@@ -51,7 +53,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">What We Offer</h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Three pathways to freedom, healing, and spiritual breakthrough
+            Three distinct pathways to freedom, growth, and personal breakthrough
             </p>
           </div>
 
@@ -69,23 +71,23 @@ export default function Home() {
                   className="object-contain w-full h-full"
                 />
                 </div>
-                <h3 className="text-2xl font-bold mb-4 text-balance">The Process</h3>
+                <h3 className="text-2xl font-bold mb-4 text-balance">Heart Healing</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                Experience a structured progression toward freedom and purpose. True breakthrough requires clearing the ground through deliverance first, followed by deep inner healing to rebuild and secure your identity in Christ
+                Inner healing and deliverance is the sacred process of identifying and removing spiritual blockages, healing deep-seated emotional wounds, and replacing destructive lies with God's truth so you can live out your divine identity in total freedom.
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">First Deliverance, Then Healing: Clear spiritual blockages first so your heart can fully receive and retain God's deep, restorative healing.</p>
+                    <p className="text-sm leading-relaxed">Healing & Deliverance: We use focused, guided prayer to actively clear spiritual blockages with authority, opening the way to fortify your heart so you can fully claim and retain God's restorative truth.</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Renew the Mind: Replace old, destructive thought patterns and lies with the absolute truth of Scripture to build a fortress around your newly healed heart.</p>
+                    <p className="text-sm leading-relaxed">Renew Your Mind: Replace old, destructive thought patterns and lies with the absolute truth of Scripture to build a fortress around your newly healed heart.</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Maintain Your Freedom: Walk daily with the Holy Spirit to guard your peace, recognizing that lasting freedom is a continual lifestyle rather than a one-time event. Put on the full armor of God each morning to stand firm against the enemy's subtle tactics, staying rooted in Word and community so the doors to your past remain permanently shut</p>
-                  </div>                  
+                    <p className="text-sm leading-relaxed">Maintain Your Freedom: Walk daily with the Holy Spirit to guard your peace, recognizing that lasting freedom is a continual lifestyle rather than a one-time event. Put on the full armor of God each morning to stand firm against the enemy's subtle tactics, staying rooted in Word and community so the doors to your past remain permanently shut.</p>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -102,28 +104,24 @@ export default function Home() {
                   className="object-contain w-full h-full"
                 />
               </div>
-                <h3 className="text-2xl font-bold mb-4 text-balance">Heart Healing</h3>
+                <h3 className="text-2xl font-bold mb-4 text-balance">Discipleship Built for Everyday Life</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                Guided spiritual prayer designed to help you heal from rejection, shame, emotional brokenness, and identity wounds
+                True discipleship is the intentional, lifelong process of walking with Jesus, becoming like Him, and learning to live out His teachings in everyday life. When applied to inner healing, it shifts the focus from self-help to soul-transformation through Christ.
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Silence the Noise to Encounter God: Quiet your mind through Spirit-led prayer to experience deep peace and intimacy with the Father
+                    <p className="text-sm leading-relaxed">Devotional Habits: We help you build a sustainable rhythm of Scripture reading and prayer for steady, lifelong spiritual discipline.
                     </p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Release Past Wounds through Forgiveness: Find freedom from trauma and old hurts by extending grace to yourself and others
+                    <p className="text-sm leading-relaxed">Everyday Righteousness: We work together to translate Biblical principles into clear, actionable choices for your personal decisions and daily lifestyle.
                     </p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-primary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Reclaim Your True Identity in Christ: Trade the weight of shame and rejection for the uplifting truth of who God says you are</p>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <div className="mt-1 h-1.5 w-1.5 rounded-full bg-secondary flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Partner with a Prophetic Coach: Secure your breakthrough through ongoing prophetic coaching, giving you the strategic accountability needed to stay free and walk out your purpose.</p>
+                    <p className="text-sm leading-relaxed">Relational Wisdom: We teach you how to interact with people righteously in your home, workplace, and community, relying on God's guidance to handle every relationship with wisdom.</p>
                   </div>
                 </div>
               </CardContent>
@@ -141,26 +139,26 @@ export default function Home() {
                   className="object-contain w-full h-full"
                 />
                 </div>
-                <h3 className="text-2xl font-bold mb-4 text-balance">Prophetic Coaching</h3>
+                <h3 className="text-2xl font-bold mb-4 text-balance">High-Capacity Leadership & Coaching</h3>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                Secure your breakthrough and sustain your healing through one-on-one mentorship that bridges divine revelation with practical, daily life coaching
+                You don't need a total overhaul; you need a precise blueprint. We partner with established visionaries, parents, and executives to sharpen their everyday authority, bridge transitions, and protect their peace while scaling.
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Sustain Your Healing: Partner with a strategic guide to guard your freedom, prevent old patterns from returning, and actively maintain the spiritual ground you have gained</p>
+                    <p className="text-sm leading-relaxed">Blind-Spot Protection: We act as your strategic sounding board, helping you identify hidden blind spots in your business, family dynamics, or career trajectories before they cost you time and peace.</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Strategic Decision-Making: Gain absolute clarity on your career, family, and ministry choices through focused, Spirit-led prophetic insight</p>
+                    <p className="text-sm leading-relaxed">High-Trust Containment: We provide a secure, confidential environment where you can safely share sensitive information, voice the hard truths of leadership, and process high-stakes stress without judgment.</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Compassionate Accountability: Walk in a safe, non-judgmental relationship that keeps you grounded, fiercely focused, and continually growing in your spiritual walk</p>
+                    <p className="text-sm leading-relaxed">True Identity Alignment: We help you untangle your personal worth from your professional performance, grounding you in the truth that you are a cherished child of God first—long before your titles and roles.</p>
                   </div>
                   <div className="flex items-start gap-2">
                     <div className="mt-1 h-1.5 w-1.5 rounded-full bg-accent flex-shrink-0" />
-                    <p className="text-sm leading-relaxed">Internal Alignment: Harmonize your soul, spirit, and everyday actions to live with authentic, God-given authority. Working together, we will bridge the gap between your spiritual breakthrough and your physical reality</p>
+                    <p className="text-sm leading-relaxed">Capacity & Boundary Defense: We give you practical strategies to fiercely protect your time and energy, teaching you how to build healthy boundaries so your career never cannibalizes your personal life.</p>
                   </div>
                 </div>
               </CardContent>
