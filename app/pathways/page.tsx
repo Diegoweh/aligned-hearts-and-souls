@@ -32,13 +32,13 @@ const page = () => {
           {/* THREE PATHWAYS OVERVIEW */}
           <div className="grid sm:grid-cols-3 gap-6 mb-16">
             <div className="rounded-2xl border-2 border-primary/20 p-6 text-center">
-              <h3 className="font-bold text-lg mb-2">Pathway 1: Private Heart Healing & Deliverance</h3>
+              <h3 className="font-bold text-lg mb-2">Pathway 1: Restoration Pathway</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Deep, one-on-one sessions for women ready to resolve spiritual barriers and claim total emotional freedom.
+              Deep rooted one-on-one private inner healing sessions for women ready to resolve spiritual barriers and claim emotional freedom.
               </p>
             </div>
             <div className="rounded-2xl border-2 border-primary/20 p-6 text-center">
-              <h3 className="font-bold text-lg mb-2">Pathway 2: High-Performance Leadership Coaching</h3>
+              <h3 className="font-bold text-lg mb-2">Pathway 2: Leadership &  Prophetic Coaching</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Strategic, one-on-one partnerships for visionaries focused on scaling their career, mastering strategy, and protecting their peace.
               </p>
@@ -49,33 +49,7 @@ const page = () => {
                 A practical, collaborative journey to build consistent spiritual habits, relational wisdom, and daily integrity.
               </p>
             </div>
-          </div>
-
-          {/* FREE GIFT BANNER */}
-          <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12  p-8 sm:p-12">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-foreground">"...the free gift of God is eternal life in Christ Jesus our Lord." — Romans 6:23</h2>
-            <p className="text-lg leading-relaxed text-foreground/80">
-            Receive our free gift of prayer and  first session of inner healing. Experience deep peace, healing, and spiritual alignment in your daily life. Simply sign up today to claim these two zero-cost blessings and watch God's restorative power transform your journey.
-            </p>
-          </div>
-
-          {/* INVEST IN YOUR GROWTH */}
-          <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12 rounded-2xl border-2 border-primary/30 bg-gradient-to-br from-primary/10 to-secondary/5 p-8 sm:p-12 shadow-lg">
-            <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary/15 mb-6">
-              <Sparkles className="h-8 w-8 text-primary" />
-            </div>
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-foreground">Invest in Your Growth</h2>
-            <p className="text-lg font-semibold italic text-foreground mb-4">
-              Why am I paying for Christian mentorship? Isn&apos;t God&apos;s word free?
-            </p>
-            <p className="text-lg leading-relaxed text-foreground/80">
-              While the Gospel of Jesus Christ is free to all, the dedicated time, professional mentorship,
-              and strategic resources required to facilitate these deep-healing pathways carry an operational cost.
-              Scripture reminds us that &ldquo;the worker is worthy of his wages&rdquo; (Luke 10:7) and that we should
-              value the spiritual labor poured into our lives (1 Corinthians 9:14).
-              When you invest in a session, you are not buying God's grace—you are honoring the specialized time and tools dedicated to your breakthrough.
-            </p>
-          </div>
+          </div>         
 
           <div className="grid lg:grid-cols-2 gap-8">
             {/* MY GIFT TO YOU */}
@@ -185,6 +159,14 @@ const page = () => {
               </CardContent>
             </Card>
 
+            {/* FREE GIFT BANNER */}
+          <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12 p-8 sm:p-12 lg:col-span-2">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-foreground">"...the free gift of God is eternal life in Christ Jesus our Lord." — Romans 6:23</h2>
+            <p className="text-lg leading-relaxed text-foreground/80">
+            Receive our free gift of prayer and  first session of inner healing. Experience deep peace, healing, and spiritual alignment in your daily life. Simply sign up today to claim these two zero-cost blessings and watch God's restorative power transform your journey.
+            </p>
+          </div>
+
             {/* RESTORATION & LEADERSHIP PATHWAYS - Individual */}
             <Card className="border-2 border-primary/30 hover:border-primary transition-all duration-300 hover:shadow-2xl flex flex-col lg:col-span-2">
               <CardContent className="p-8 flex flex-col flex-1">
@@ -235,18 +217,6 @@ const page = () => {
                         </span>
                       </li>
                     </ul>
-                    <div className="mt-auto pt-2">
-                      <Button
-                        asChild
-                        size="lg"
-                        className="w-full bg-primary hover:bg-primary/90 text-lg py-6"
-                      >
-                        <Link href="https://buy.stripe.com/14A6oIeui5zv9pFcLs0Fi09" target="_blank">
-                          Unlock the Restoration Pathway
-                          <ArrowRight className="ml-2 h-5 w-5" />
-                        </Link>
-                      </Button>
-                    </div>
                   </div>
 
                   {/* Leadership column */}
@@ -284,23 +254,21 @@ const page = () => {
                         </span>
                       </li>
                     </ul>
-                    <div className="mt-auto pt-2">
-                      <Button
-                        asChild
-                        size="lg"
-                        className="w-full bg-primary hover:bg-primary/90 text-lg py-6"
-                      >
-                        <a
-                          href="https://wa.me/19547368343?text=Hello%20I%27d%20like%20to%20learn%20more%20about%20the%20Leadership%20Pathway"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Unlock the Leadership Pathway
-                          <ArrowRight className="ml-2 h-5 w-5" />
-                        </a>
-                      </Button>
-                    </div>
                   </div>
+                </div>
+
+                {/* CTA Button - covers both pathways */}
+                <div className="mt-8 max-w-lg mx-auto w-full">
+                  <Button
+                    asChild
+                    size="lg"
+                    className="w-full bg-primary hover:bg-primary/90 text-lg py-6"
+                  >
+                    <Link href="https://buy.stripe.com/14A6oIeui5zv9pFcLs0Fi09" target="_blank">
+                      Unlock Your Pathway &mdash; Restoration or Leadership
+                      <ArrowRight className="ml-2 h-5 w-5" />
+                    </Link>
+                  </Button>
                 </div>
 
                 {/* What You Receive */}
@@ -329,6 +297,24 @@ const page = () => {
                 </div>
               </CardContent>
             </Card>
+
+            {/* INVEST IN YOUR GROWTH */}
+          <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12 rounded-2xl border-2 border-primary/30 bg-gradient-to-br from-primary/10 to-secondary/5 p-8 sm:p-12 shadow-lg">
+            <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary/15 mb-6">
+              <Sparkles className="h-8 w-8 text-primary" />
+            </div>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-foreground">Invest in Your Growth</h2>
+            <p className="text-lg font-semibold italic text-foreground mb-4">
+              Why am I paying for Christian mentorship? Isn&apos;t God&apos;s word free?
+            </p>
+            <p className="text-lg leading-relaxed text-foreground/80">
+              While the Gospel of Jesus Christ is free to all, the dedicated time, professional mentorship,
+              and strategic resources required to facilitate these deep-healing pathways carry an operational cost.
+              Scripture reminds us that &ldquo;the worker is worthy of his wages&rdquo; (Luke 10:7) and that we should
+              value the spiritual labor poured into our lives (1 Corinthians 9:14).
+              When you invest in a session, you are not buying God's grace—you are honoring the specialized time and tools dedicated to your breakthrough.
+            </p>
+          </div>
 
             {/* ALIGNMENT PATH - Group */}
             <Card className="border-2 border-secondary/30 hover:border-secondary transition-all duration-300 hover:shadow-2xl flex flex-col">

@@ -87,9 +87,9 @@ const page = () => {
                   <p className="text-lg leading-relaxed text-muted-foreground">
                   Our intention is to empower believers to dismantle the strongholds of rejection and reclaim their original design through the restorative power of deliverance and inner healing.
                   </p>
-                  <p className="mt-6 text-foreground font-medium leading-relaxed">
+                  {/* <p className="mt-6 text-foreground font-medium leading-relaxed">
                   At Aligned Heart & Soul, we facilitate the sacred process of mending soul wounds to transition you from spiritual survival into true kingdom authority. We believe that as your heart aligns with God’s truth, you are liberated to stop striving and begin walking in the fullness of your identity in Christ.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </CardContent>
@@ -106,9 +106,9 @@ const page = () => {
                     </div>
                     <h3 className="text-2xl sm:text-3xl font-bold">Inspiration</h3>
                   </div>
-                  <p className="text-lg leading-relaxed text-muted-foreground mb-6">
+                  {/* <p className="text-lg leading-relaxed text-muted-foreground mb-6">
                   At Aligned Heart & Soul, we help believers dismantle the strongholds of rejection and reclaim their original design. Through deliverance and inner healing, we transition you from weariness and spiritual survival into true Kingdom authority.
-                  </p>
+                  </p> */}
                   <p className="text-lg leading-relaxed text-muted-foreground">
                   Whether you are scaling your professional impact or seeking deep emotional restoration, our process aligns your heart with God's truth. We partner with you to stop the exhausting cycle of striving, protect your peace, and walk in the absolute fullness of your identity in Christ.
                   </p>

@@ -71,7 +71,7 @@ export function Footer() {
       {/* Copyright */}
       <div className="border-t pt-8">
         <p className="text-sm text-muted-foreground text-center">
-          © 2026 Aligned Hearts & Souls. All rights reserved.
+          © 2026 Aligned Heart & Soul. All rights reserved.
         </p>
       </div>
     </div>
