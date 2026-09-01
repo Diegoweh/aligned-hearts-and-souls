@@ -147,12 +147,14 @@ const page = () => {
               <Card key={post.title} className="border-2 border-primary/20 overflow-hidden w-full max-w-[500px]">
                 <CardContent className="p-4 sm:p-6 flex flex-col items-center">
                   <h2 className="text-xl font-bold mb-4 self-start">{post.title}</h2>
-                  <div className="w-full overflow-hidden rounded-lg flex justify-center">
+                  <div
+                    className="w-full overflow-hidden rounded-lg"
+                    style={{ aspectRatio: `${post.width} / ${post.height}` }}
+                  >
                     <iframe
                       src={post.src}
-                      width={post.width}
-                      height={post.height}
-                      style={{ border: "none", overflow: "hidden", maxWidth: "100%" }}
+                      className="w-full h-full"
+                      style={{ border: "none" }}
                       scrolling="no"
                       frameBorder="0"
                       allowFullScreen

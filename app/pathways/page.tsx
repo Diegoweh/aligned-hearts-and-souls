@@ -49,6 +49,14 @@ const page = () => {
                 A practical, collaborative journey to build consistent spiritual habits, relational wisdom, and daily integrity.
               </p>
             </div>
+          </div>
+
+           {/* FREE GIFT BANNER */}
+          <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12 p-8 sm:p-12 lg:col-span-2">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-foreground">"...the free gift of God is eternal life in Christ Jesus our Lord." — Romans 6:23</h2>
+            <p className="text-lg leading-relaxed text-foreground/80">
+            Receive our free gift of prayer and  first session of inner healing. Experience deep peace, healing, and spiritual alignment in your daily life. Simply sign up today to claim these two zero-cost blessings and watch God's restorative power transform your journey.
+            </p>
           </div>         
 
           <div className="grid lg:grid-cols-2 gap-8">
@@ -159,13 +167,37 @@ const page = () => {
               </CardContent>
             </Card>
 
-            {/* FREE GIFT BANNER */}
-          <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12 p-8 sm:p-12 lg:col-span-2">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-foreground">"...the free gift of God is eternal life in Christ Jesus our Lord." — Romans 6:23</h2>
-            <p className="text-lg leading-relaxed text-foreground/80">
-            Receive our free gift of prayer and  first session of inner healing. Experience deep peace, healing, and spiritual alignment in your daily life. Simply sign up today to claim these two zero-cost blessings and watch God's restorative power transform your journey.
-            </p>
           </div>
+        </div>
+      </section>
+
+      <CurveSeparator color="#eb5942" />
+
+      {/* INVEST IN YOUR GROWTH */}
+      <section className="py-6 md:py-8 bg-primary text-primary-foreground">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+          <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-white/15 mb-6">
+            <Sparkles className="h-8 w-8 text-white" />
+          </div>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">Invest in Your Growth</h2>
+          <p className="text-lg font-semibold italic mb-4">
+            &ldquo;Why am I paying for Christian mentorship? Isn&apos;t God&apos;s word free?&rdquo;
+          </p>
+          <p className="text-lg leading-relaxed text-white/85">
+            While the Gospel of Jesus Christ is free to all, the dedicated time, professional mentorship,
+            and strategic resources required to facilitate these deep-healing pathways carry an operational cost.
+            Scripture reminds us that &ldquo;the worker is worthy of his wages&rdquo; (Luke 10:7) and that we should
+            value the spiritual labor poured into our lives (1 Corinthians 9:14).
+            When you invest in a session, you are not buying God's grace—you are honoring the specialized time and tools dedicated to your breakthrough.
+          </p>
+        </div>
+      </section>
+
+      <CurveSeparator color="#eb5942" flip={true} />
+
+      <section className="py-20 bg-background">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-8">
 
             {/* RESTORATION & LEADERSHIP PATHWAYS - Individual */}
             <Card className="border-2 border-primary/30 hover:border-primary transition-all duration-300 hover:shadow-2xl flex flex-col lg:col-span-2">
@@ -238,21 +270,16 @@ const page = () => {
                       <li className="flex items-start gap-3">
                         <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                         <span className="text-muted-foreground">
-                          <strong>Prophetic Strategic Alignment:</strong> Spirit-led direction for precise choices in your career, family, or business.
+                           Spirit-led direction for precise choices in your career, family, or business.
                         </span>
                       </li>
                       <li className="flex items-start gap-3">
                         <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                         <span className="text-muted-foreground">
-                          <strong>Lifestyle and Schedule Design:</strong> Structure your calendar to scale your influence without burning out.
+                          Structure your calendar to scale your influence without burning out.
                         </span>
                       </li>
-                      <li className="flex items-start gap-3">
-                        <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                        <span className="text-muted-foreground">
-                          <strong>Focused Leadership Mentorship:</strong> A safe, private container to keep you moving forward in your authority.
-                        </span>
-                      </li>
+                      
                     </ul>
                   </div>
                 </div>
@@ -297,27 +324,10 @@ const page = () => {
                 </div>
               </CardContent>
             </Card>
-
-            {/* INVEST IN YOUR GROWTH */}
-          <div className="relative mx-auto max-w-3xl text-center mt-16 mb-12 rounded-2xl border-2 border-primary/30 bg-gradient-to-br from-primary/10 to-secondary/5 p-8 sm:p-12 shadow-lg">
-            <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary/15 mb-6">
-              <Sparkles className="h-8 w-8 text-primary" />
-            </div>
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 text-foreground">Invest in Your Growth</h2>
-            <p className="text-lg font-semibold italic text-foreground mb-4">
-              Why am I paying for Christian mentorship? Isn&apos;t God&apos;s word free?
-            </p>
-            <p className="text-lg leading-relaxed text-foreground/80">
-              While the Gospel of Jesus Christ is free to all, the dedicated time, professional mentorship,
-              and strategic resources required to facilitate these deep-healing pathways carry an operational cost.
-              Scripture reminds us that &ldquo;the worker is worthy of his wages&rdquo; (Luke 10:7) and that we should
-              value the spiritual labor poured into our lives (1 Corinthians 9:14).
-              When you invest in a session, you are not buying God's grace—you are honoring the specialized time and tools dedicated to your breakthrough.
-            </p>
-          </div>
+            
 
             {/* ALIGNMENT PATH - Group */}
-            <Card className="border-2 border-secondary/30 hover:border-secondary transition-all duration-300 hover:shadow-2xl flex flex-col">
+            <Card className="border-2 border-secondary/30 hover:border-secondary transition-all duration-300 hover:shadow-2xl flex flex-col lg:col-span-2">
               <CardContent className="p-8 flex flex-col flex-1">
                 {/* Header */}
                 <div className="text-center mb-8">
