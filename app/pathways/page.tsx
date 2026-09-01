@@ -201,14 +201,14 @@ const page = () => {
 
             {/* RESTORATION & LEADERSHIP PATHWAYS - Individual */}
             <Card className="border-2 border-primary/30 hover:border-primary transition-all duration-300 hover:shadow-2xl flex flex-col lg:col-span-2">
-              <CardContent className="p-8 flex flex-col flex-1">
+              <CardContent className="p-6 sm:p-8 flex flex-col flex-1">
                 {/* Header */}
                 <div className="text-center mb-8">
                   <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary/10 mb-4">
                     <Heart className="h-8 w-8 text-primary" />
                   </div>
-                  <h2 className="text-3xl font-bold mb-2">Restoration Pathway &amp; The Leadership Pathway</h2>
-                  <p className="text-xl text-primary font-medium">One-on-One Prophetic Coaching</p>
+                  <h2 className="text-2xl sm:text-3xl font-bold mb-2">Restoration Pathway &amp; The Leadership Pathway</h2>
+                  <p className="text-lg sm:text-xl text-primary font-medium">One-on-One Prophetic Coaching</p>
                 </div>
 
                 {/* Description */}
@@ -218,7 +218,7 @@ const page = () => {
                   prophetic coaching designed to protect your peace and unlock your true identity in Christ.
                 </p>
 
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="grid md:grid-cols-2 gap-6 md:gap-8">
                   {/* Restoration column */}
                   <div className="flex flex-col">
                     <h3 className="font-bold text-lg mb-4 flex items-center gap-2">
@@ -289,11 +289,11 @@ const page = () => {
                   <Button
                     asChild
                     size="lg"
-                    className="w-full bg-primary hover:bg-primary/90 text-lg py-6"
+                    className="w-full h-auto whitespace-normal bg-primary hover:bg-primary/90 text-lg py-6"
                   >
                     <Link href="https://buy.stripe.com/14A6oIeui5zv9pFcLs0Fi09" target="_blank">
                       Unlock Your Pathway &mdash; Restoration or Leadership
-                      <ArrowRight className="ml-2 h-5 w-5" />
+                      <ArrowRight className="ml-2 h-5 w-5 shrink-0" />
                     </Link>
                   </Button>
                 </div>
@@ -301,7 +301,7 @@ const page = () => {
                 {/* What You Receive */}
                 <div className="mt-8">
                   <h3 className="font-bold text-lg mb-4 text-center">What You Receive:</h3>
-                  <div className="grid sm:grid-cols-3 gap-4 bg-primary/5 p-6 rounded-lg">
+                  <div className="grid sm:grid-cols-3 gap-4 bg-primary/5 p-4 sm:p-6 rounded-lg">
                     <p className="flex items-start gap-2">
                       <span className="text-primary font-bold">•</span>
                       <span className="text-foreground">
@@ -328,14 +328,14 @@ const page = () => {
 
             {/* ALIGNMENT PATH - Group */}
             <Card className="border-2 border-secondary/30 hover:border-secondary transition-all duration-300 hover:shadow-2xl flex flex-col lg:col-span-2">
-              <CardContent className="p-8 flex flex-col flex-1">
+              <CardContent className="p-6 sm:p-8 flex flex-col flex-1">
                 {/* Header */}
                 <div className="text-center mb-8">
                   <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-secondary/10 mb-4">
                     <Users className="h-8 w-8 text-secondary" />
                   </div>
-                  <h2 className="text-3xl font-bold mb-2">Alignment Path</h2>
-                  <p className="text-xl text-secondary font-medium">Group Journey to Freedom</p>
+                  <h2 className="text-2xl sm:text-3xl font-bold mb-2">Alignment Path</h2>
+                  <p className="text-lg sm:text-xl text-secondary font-medium">Group Journey to Freedom</p>
                 </div>
 
                 {/* Description */}
@@ -380,7 +380,7 @@ const page = () => {
                 {/* What you Receive */}
                 <div className="mb-8">
                   <h3 className="font-bold text-lg mb-4">What You Receive:</h3>
-                  <div className="space-y-3 bg-secondary/5 p-4 rounded-lg">
+                  <div className="space-y-3 bg-secondary/5 p-3 sm:p-4 rounded-lg">
                     <p className="flex items-start gap-2">
                       <span className="text-secondary font-bold">•</span>
                       <span className="text-foreground">
